@@ -1,0 +1,110 @@
+/*font-family: 'Josefin Slab', serif;
+font-family: 'Fresca', sans-serif;*/
+/*General Styles */
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+
+}
+img{
+  max-width:100%;
+}
+body{
+  /*Font Family for entire webpage*/
+ overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6{
+  /*Font family for header*/
+  font-family: 'Fresca', sans-serif;
+  text-align: center;
+}
+p{
+  font-family: 'Josefin Slab', serif;
+  font-weight:bold;
+}
+a{
+  text-decoration: none; /*Removes underline from anchor links*/
+}
+
+/*Header Styles*/
+header{
+    margin:2%;
+
+}
+nav{
+  text-align: right;
+}
+nav a{
+  /*Nav for your anchor links, like hover or text color*/
+  color: black;
+  background: white;
+  padding:1%;
+  text-align: center;
+  font-weight: bold;
+}
+/*section one*/
+.large{
+  /*Make Icons Larger*/
+}
+.left{
+  border-left:3px solid pink;
+}
+.right{
+  border-right:3px solid pink;
+}
+.right p{
+  margin-left: 3%;
+}
+#about{
+  margin:6%;
+}
+.center{
+  text-align: center;
+}
+/*section two*/
+  /*Make these pictures a max width of 100%*/
+
+
+/*section three*/
+
+
+/*footer styles*/
+#contact{
+  background-color: #f9fded;
+  padding:20px;
+  margin:25px;
+}
+.form{
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+}
+input [type=name] select, input, textarea{
+ border:none;
+ outline: none;
+ font-size: 15px;
+ font-weight: 300;
+ text-align: center;
+ background: none;
+ font-family: 'josefin-slab', serif;
+ max-width: 90%;
+ border-bottom: 1px dashed;
+ padding:15px;
+ cursor:text;
+}
+button [type=submit] select, button{
+  border:none;
+  background-color: #f9fded;
+  padding:10px;
+  transition: 2s;
+}
+button [type=submit] select, button:hover{
+  color: #f9fded;
+  background-color: black;
+}
+
+
+
+/*RESPONSIVE STYLES*/
