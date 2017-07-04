@@ -14,7 +14,9 @@ body{
   /*Font Family for entire webpage*/
  overflow-x: hidden;
 }
-
+section{
+  position: relative;
+}
 h1, h2, h3, h4, h5, h6{
   /*Font family for header*/
   font-family: 'Fresca', sans-serif;
@@ -59,24 +61,44 @@ nav a{
 }
 #about{
   margin:6%;
+  background-color: #F2F4F1;
 }
 .center{
   text-align: center;
 }
+svg{
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 100%;
+}
+polygon{
+  fill:#F2F4F1;
+}
+.down{
+  bottom: 0;
+}
+.up{
+  top:0;
+}
 /*section two*/
   /*Make these pictures a max width of 100%*/
-
+#gallery{
+  background-color: #F2F4F1;
+}
 
 /*section three*/
-
+#timeline{
+  padding-bottom: 9vw;
+}
 
 /*footer styles*/
 #contact{
   background-color: #f9fded;
-  padding:20px;
-  margin:25px;
+  position: relative;
+  padding-top:9vw;
 }
-.form{
+form{
   text-align: center;
   font-weight: 300;
   font-size: 20px;
