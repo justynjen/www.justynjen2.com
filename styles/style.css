@@ -94,17 +94,43 @@ input [type=name] select, input, textarea{
  padding:15px;
  cursor:text;
 }
-button [type=submit] select, button{
+button[type=submit] select, button{
   border:none;
   background-color: #f9fded;
   padding:10px;
   transition: 2s;
 }
-button [type=submit] select, button:hover{
+button[type=submit] select, button:hover{
   color: #f9fded;
   background-color: black;
 }
-
-
+.quiz button{
+  border:3px solid #ECEFEA;
+  background-color: #F49FB1;
+  transition: 2s;
+  border-radius: 10px;
+  font-family:'josefin-slab';
+  text-align: center;
+  margin-right: 10px;
+  font-size: 20px;
+  padding:16px;
+}
+.quiz button:hover{
+  border:1px solid #ECEFEA;
+  background-color: #F49FB1;
+}
+.quiz nav{
+  text-align: center;
+  padding: 30px;
+}
+.quiz{
+  background-color: #F49FB1;
+  padding:15%;
+  font-size: 30px;
+}
+.quiz img{
+  width: 25px;
+  vertical-align: middle;
+}
 
 /*RESPONSIVE STYLES*/
