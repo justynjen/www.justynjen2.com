@@ -94,7 +94,7 @@ polygon{
 
 /*footer styles*/
 #contact{
-  background-color: #f9fded;
+  background-color: #F49FB1;
   position: relative;
   padding-top:9vw;
 }
@@ -118,7 +118,7 @@ input [type=name] select, input, textarea{
 }
 button[type=submit] select, button{
   border:none;
-  background-color: #f9fded;
+  background-color: #F49FB1;
   padding:10px;
   transition: 2s;
 }
