@@ -29,7 +29,9 @@ p{
 a{
   text-decoration: none; /*Removes underline from anchor links*/
 }
-
+.relative{
+  position: relative;
+}
 /*Header Styles*/
 header{
     margin:2%;
@@ -60,7 +62,6 @@ nav a{
   margin-left: 3%;
 }
 #about{
-  margin:6%;
   background-color: #F2F4F1;
 }
 .center{
@@ -86,17 +87,29 @@ polygon{
 #gallery{
   background-color: #F2F4F1;
 }
+.picone{
+  margin-top: -9vw;
+}
+.pictwo{
+
+}
+.picthree{
+  margin-bottom: -30vw;
+  position: relative;
+  z-index: 90;
+}
 
 /*section three*/
 #timeline{
-  padding-bottom: 9vw;
+  padding-bottom: 14vw;
+  padding-top: 10vw;
 }
 
 /*footer styles*/
 #contact{
   background-color: #F49FB1;
   position: relative;
-  padding-top:9vw;
+  padding-top:19vw;
 }
 form{
   text-align: center;
