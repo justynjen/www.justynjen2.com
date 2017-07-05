@@ -22,6 +22,9 @@ h1, h2, h3, h4, h5, h6{
   font-family: 'Fresca', sans-serif;
   text-align: center;
 }
+h3{
+  font-size: 18px;
+}
 p{
   font-family: 'Josefin Slab', serif;
   font-weight:bold;
@@ -163,21 +166,17 @@ polygon{
 #timeline p{
   text-align: center;
 }
-#timeline right{
-  text-align: right;
-  position: relative;
-  margin-right: 40px;
-}
-#timeline left{
-  text-align: left;
-  position: relative;
-  margin-left: 40px;
-}
 /*footer styles*/
 #contact{
   background-color: #F49FB1;
   position: relative;
   padding-top:19vw;
+}
+.summer{
+  margin-left: 482px;
+}
+.winter{
+  margin-right: 480px;
 }
 form{
   text-align: center;
