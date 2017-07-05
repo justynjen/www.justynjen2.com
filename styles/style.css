@@ -130,12 +130,12 @@ button[type=submit] select, button:hover{
   border:3px solid #ECEFEA;
   background-color: #F49FB1;
   transition: 2s;
-  border-radius: 10px;
+  border-radius: 16px;
   font-family:'josefin-slab';
   text-align: center;
   margin-right: 10px;
   font-size: 20px;
-  padding:16px;
+  padding:20px;
 }
 .quiz button:hover{
   border:1px solid #ECEFEA;
