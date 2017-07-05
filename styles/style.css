@@ -34,8 +34,9 @@ a{
 }
 /*Header Styles*/
 header{
-    margin:2%;
-
+    background-color: #F49FB1;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 nav{
   text-align: right;
@@ -45,8 +46,11 @@ nav a{
   color: #F2F4F1;
   background: #F49FB1;
   padding: 1%;
+  flex-grow: 1;
   text-align: center;
   font-weight: bold;
+  align-content: center;
+  align-content:space-between;
 }
 /*section one*/
 .large{
@@ -63,6 +67,7 @@ nav a{
 }
 #about{
   background-color: #F2F4F1;
+  padding-top: 20%;
 }
 .center{
   text-align: center;
@@ -75,6 +80,9 @@ svg{
 }
 polygon{
   fill:#F2F4F1;
+}
+.about polygon{
+  fill: #F49FB1;
 }
 .down{
   bottom: 0;
