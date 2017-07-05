@@ -42,9 +42,9 @@ nav{
 }
 nav a{
   /*Nav for your anchor links, like hover or text color*/
-  color: black;
-  background: white;
-  padding:1%;
+  color: #F2F4F1;
+  background: #F49FB1;
+  padding: 1%;
   text-align: center;
   font-weight: bold;
 }
