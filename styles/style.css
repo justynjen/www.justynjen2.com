@@ -135,6 +135,7 @@ polygon{
 .left p{
   padding:2% 5%;
 }
+
 /*section two*/
   /*Make these pictures a max width of 100%*/
 #gallery{
@@ -159,7 +160,19 @@ polygon{
   padding-left: 2%;
   padding-right: 2%;
 }
-
+#timeline p{
+  text-align: center;
+}
+#timeline right{
+  text-align: right;
+  position: relative;
+  margin-right: 40px;
+}
+#timeline left{
+  text-align: left;
+  position: relative;
+  margin-left: 40px;
+}
 /*footer styles*/
 #contact{
   background-color: #F49FB1;
