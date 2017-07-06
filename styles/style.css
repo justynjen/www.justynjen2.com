@@ -13,6 +13,7 @@ img{
 body{
   /*Font Family for entire webpage*/
  overflow-x: hidden;
+ line-height: 1.5;
 }
 section{
   position: relative;
@@ -52,6 +53,9 @@ header{
     padding-top: 4%;
     padding-bottom: 4%;
 }
+header h2{
+  color:#f2f4f1;
+}
 nav{
   text-align: right;
 }
@@ -66,6 +70,28 @@ nav a{
   align-content: center;
   align-content:space-between;
 }
+.hamburger{
+  display:none;
+}
+/*Header media queries*/
+@media all and (max-width:768px){
+  .hamburger{
+    display: block;
+    position: absolute;
+    right: 18px;
+    color: #f2f4f1;
+  }
+  nav a{
+    display: none;
+  }
+  header h1{
+    margin: 0;
+    padding-top : 50px;
+  }
+  header h2{
+    margin-bottom: 30px;
+  }
+}
 /*section one*/
 .about about{
   position:relative;
@@ -76,20 +102,13 @@ nav a{
   justify-content: center;
   position: relative;
 }
-.left{
-  border-left:3px solid #f49fb1;
-}
-.right{
-  border-right:3px solid #f2f4f1;
-}
-.right p{
+/*.right p{
   margin-left: 3%;
-}
+}*/
 #about a{
   display: inline-block;
   color: #f49fb1;
   background-color: #f2f4f1;
-  font-size: 75px;
 }
 .icons{
   margin-top: -8vw;
@@ -101,9 +120,11 @@ nav a{
   justify-content:space-around;
 }
 .picfour{
+    overflow: hidden;
+}
+#about .picfour img{
   border: 3px #f49fb1 solid;
   border-radius: 20px;
-  overflow: hidden;
 }
 .center{
   text-align: center;
@@ -127,36 +148,59 @@ polygon{
 .up{
   top:0;
 }
-.left .fa{
-  margin-left: -54px;
-  font-size: 32px;
-}
-.right .fa{
-  margin-right: -54px;
-  font-size: 32px;
-}
-.right p{
+/*.right p{
   padding:1% 5%;
 }
 .left p{
   padding:2% 5%;
+}*/
+/*Media Queries*/
+@media all and (max-width:768px){
+  #about li{
+    display: inline-block;
+    padding:20px;
+  }
+  #about .icons{
+    margin-top: 0;
+  }
+  #about .picfour{
+    margin-top: 22px;
+    margin-bottom: 22px;
+    padding: 30px;
+    border: none;
+  }
+  #about .picfour img{
+    border: 3px #f49fb1 solid;
+    border-radius: 18px;
+  }
 }
-
 /*section two*/
   /*Make these pictures a max width of 100%*/
-#gallery{
-  background-color: #F2F4F1;
-}
 .picone{
-  margin-top: -9vw;
+  position: relative;
+  z-index: 1;
+  margin-top: -100px;
 }
 .pictwo{
-
+  position: relative;
+  z-index: 1;
+  margin-top: 0px;
 }
 .picthree{
-  margin-bottom: -34vw;
   position: relative;
-  z-index: 90;
+  z-index: 1;
+  margin-top: 100px;
+}
+#gallery div{
+  background-color: #F2F4F1;
+}
+#gallery svg{
+  position: absolute;
+  z-index: 1;
+  bottom: -280px;
+}
+#gallery .gutter-padding{
+  padding: 1em;
 }
 
 /*section three*/
@@ -166,8 +210,89 @@ polygon{
   padding-left: 2%;
   padding-right: 2%;
 }
-#timeline p{
-  text-align: center;
+#timeline .text-right{
+  text-align: right;
+  padding-right: 40px;
+  padding-top: 4px;
+}
+#timeline .text-left{
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 4px;
+}
+.left .fa{
+  margin-left: -54px;
+  font-size: 32px;
+}
+.right .fa{
+  margin-right: -54px;
+  font-size: 32px;
+}
+.left{
+  border-left:3px solid #f49fb1;
+}
+.right{
+  border-right:3px solid #f2f4f1;
+}
+@media all and (max-width:768px) {
+  #timeline{
+    padding-top: 17vw;
+  }
+  #entry-1{
+    order:1;
+  }
+  #entry-2{
+    order:2;
+  }
+  #entry-3{
+    order:3;
+  }
+  #entry-4{
+    order:4;
+  }
+  #entry-5{
+    order:5;
+  }
+  #entry-6{
+    order:6;
+  }
+  #entry-7{
+    order:7;
+  }
+  #entry-8{
+    order:8;
+  }
+  #timeline .text-left,
+  #timeline .text-right{
+    text-align: center;
+    padding: 0;
+    line-height: 1.5;
+  }
+  .left,
+  .right{
+    border: none;
+    text-align: center;
+    padding: 0 40px;
+  }
+  .right .fa,
+  .left .fa{
+    margin:0px;
+  }
+  #timeline h3{
+    margin-bottom: 12px;
+  }
+  #timeline .space-bottom{
+    margin-bottom: 40px;
+  }
+  #timeline .large{
+    color:#f49fb1;
+  }
+}
+/*Media Queries*/
+@media all and (max-width:768px){
+  #gallery img{
+    margin:0;
+  }
 }
 /*footer styles*/
 #contact{
@@ -175,18 +300,36 @@ polygon{
   position: relative;
   padding-top:19vw;
 }
-.summer{
-  margin-left: 482px;
+#contact svg{
+  top: -140px;
+  z-index: 0;
 }
-.winter{
-  margin-right: 480px;
+#contact .pink-up polygon{
+  fill:#F49FB1  ;
+  top: -70;
 }
 form{
   text-align: center;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 38px;
   justify-content: center;
   padding-bottom: 8%;
+  margin-bottom: 100px;
+  position: relative;
+  margin-top: -200px;
+}
+/*Media Queries*/
+@media all and (max-width: 768px){
+  #contact form{
+    margin-top: 0;
+    padding-top:90px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #contact svg.up{
+    top:0;
+
+  }
 }
 input [type=name] select, input, textarea{
  border:none;
