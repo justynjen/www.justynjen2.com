@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
 <!--Meta-->
-  <meta name="viewport" content="width=device-width, intial-scale=1.0">
-  <title>Gallery</title>
-<!--Stylesheets-->
-  <link rel="stylesheet" href="styles/normalize.css">
-  <link href="https://fonts.googleapis.com/css?family=Fresca|Josefin+Slab" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.3.7/gridlex.min.css">
-  <link rel="stylesheet" href="styles/style.css"/>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Justyn Jen</title>
+    <meta name="keywords" content="justyn gourdin, entrepreneur, blogger, traveler, web developer">
+    <meta name="description" content="This is a personal portfolio for all of Justyn's work">
+<!-- Stylesheets-->
+    <link rel="stylesheet" href="styles/normalize.css"><!--normalize has to go first, then the fonts because the fonts need to load first. After the fonts you can add your style sheet-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Fresca|Josefin+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.3.7/gridlex.min.css">
+    <link rel="stylesheet" href="styles/style.css"/>
 <!--Scripts-->
-  <script src="https://use.fontawesome.com/6080fd791b.js"></script>
-</head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.7/typed.min.js"></script>
+  </head>
   <body>
-    <header><!--this is the start of my gallery header-->
-      <nav><!--Same navigation for the main page-->
-        <a href="index.html">Home</a>
+    <header id="home"><!--This is where my header starts -->
+      <nav><!--My navigation menu that I will have as a hamburger menu-->
+        <a href="/index.html">Home</a>
         <a href="http://www.adventuresofamiddlechild.com">Blog</a>
-        <a href="contact">Contact</a>
+        <a href="bob.html">Gallery</a>
+        <a href="work">Work with me</a>
+        <a href="#contact">Contact</a>
+        <a href="quiz.html">Quiz</a>
       </nav>
-      <h1>Gallery</h1>
-    </header>
-    <section>
+      <i class="fa fa-bars hamburger fa-3x" aria-hidden="true"></i>
+      <h1>Justyn Jen</h1>
+      <h2><i class="fa fa-plane" aria-hidden="true"></i> World Traveler</h2>
+    </header><!-- This is where my header ends-->
+
+      <section>
     <svg viewBox="0 0 100 10" class="up about">
       <polygon points="0,0 100,0 50,10" class="about">
     </svg>
@@ -32,3 +41,32 @@
 
   </body>
 </html>
+
+
+    <footer id="contact" class="grid-noGutter"><!--This is my footer section with my contact form and social links-->
+        <svg viewBox="0 0 100 20" class="up">
+          <polygon points="0,0 100,0 100,20">
+        </svg>
+        <svg viewBox="0 0 100 20" class="pink-up">
+          <polygon points="0,0 100,20 0,20">
+        </svg>
+        <form method="POST" action="http://formspree.io/justyngourdin@gmail.com" class="col-6_sm-12">
+            <p>My
+              <label for="your-name">name</label> is
+              <input type="text" name= "your-name" id="your name" minlength="3" placeholder="(your name here)" required>and</p>
+
+            <p>my
+              <label for="email">email address</label> is
+              <input type="email" name="your-email" id="email" placeholder="(your email address)" required>
+            </p>
+            <p> I have a
+              <label for="your-message">message</label> for you,</p>
+
+            <p>
+              <input name="your-message" id="your-message" placeholder="(your msg here)" class="expanding" required></textarea>
+            </p>
+            <button type="submit"<i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+        </form>
+    </footer>
+  </body>
+  </html>
