@@ -33,20 +33,20 @@ $(document).ready(function(){
 
   $('.quiz-1').click(function(){
     console.log('x clicked!');
-    $('#quiz-frame').replaceWith({
+    $('#quiz-frame').typed({
     strings:['<h2>Ready to go out in Canggu? <img src="images/clink.png" alt="clink-drink"></h2><nav><button class="quiz-3" type="button" name="button">Yes Please!</button><button class="quiz-2" type="button" name="button">No, Im a grandma <img src="images/grandma.png" alt="grandma"></button>'],
     typeSpeed: 60,
   });
 });
   $('.quiz-2').click(function(){
-    $('#quiz-frame').replaceWith({
+    $('#quiz-frame').typed({
     strings:["<h2>You're lame.<i class='fa fa-thumbs-o-down' aria-hidden='true'></i></h2>"],
     typeSpeed: 60
   });
 });
   $('.quiz-3').click(function(){
     console.log('x clicked!');
-    $('#quiz-frame').replaceWith({
+    $('#quiz-frame').typed({
     strings:['<h2>What do you feel like doing?</h2><nav><button class="quiz-4" type="button" name="button">Get Some </button><button class="quiz-6" type="button" name="button">Drinks with friends</button><button class="quiz-8" type="button" name="button">Dance yo ass off</button></nav>'],
     typeSpeed: 60
   });
@@ -60,7 +60,7 @@ $('.quiz-4').click(function(){
 });
 $('.quiz-5').click(function(){
   console.log('x clicked!');
-  $('#quiz-frame').replaceWith({
+  $('#quiz-frame').typed({
     strings:['<h2>Use Tinder yah slut</h2>'],
     typeSpeed: 60,
   });
