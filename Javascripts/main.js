@@ -30,7 +30,6 @@
     cursor: true
   });
 });
-
 $('.quiz-2').click(function(){
   $('.quiz').removeClass('active');
   $('.quiz-2-frame').addClass('active');
