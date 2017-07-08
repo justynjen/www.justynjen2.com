@@ -28,7 +28,7 @@ h2{
   color:#6EAB92;
 }
 h3{
-  font-size: 18px;
+  font-size: 25px;
   color:#6EAB92;
 }
 h1{
@@ -38,7 +38,7 @@ h1{
   min-height: 120px;
 }
 p{
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Josefin Slab', sans-serif;
   font-weight:bold;
 }
 a{
@@ -47,8 +47,20 @@ a{
 .relative{
   position: relative;
 }
+ul{
+  margin-top: 77px;
+}
+.centerIcons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 li{
   list-style: none;
+}
+li .fa:hover{
+  color: #B2EFCF;
+  transition: 1s;
 }
 .alignright{
   text-align: right;
@@ -77,8 +89,12 @@ nav a{
   font-weight: bold;
   font-size: 20px;
   margin-top: 0;
-  /*align-content: center;
-  align-content:space-between;*/
+  font-family:'josefin slab';
+  font-weight: bold;
+}
+nav a:hover{
+  color: black;
+  transition: 1s;
 }
 .hamburger{
   display:none;
@@ -251,12 +267,12 @@ polygon{
 #timeline .text-right{
   text-align: right;
   padding-right: 20px;
-  padding-top: 10px;
+  font-size: 18px;
 }
 #timeline .text-left{
   text-align: left;
   padding-left: 20px;
-  padding-top: 10px;
+  font-size: 18px;
 }
 .left .fa{
   margin-left: -28px;
@@ -343,10 +359,11 @@ polygon{
   }
 }
 /*footer styles*/
+
 #contact{
   background-color: #B2EFCF;
   position: relative;
-  padding-top:19vw;
+  padding-top:16vw;
 }
 #contact svg{
   top: -140px;
@@ -365,6 +382,7 @@ form{
   margin-bottom: 100px;
   position: relative;
   margin-top: -200px;
+  margin-bottom: 2vw;
 }
 /*Media Queries*/
 @media all and (max-width: 768px){
@@ -402,7 +420,7 @@ button[type=submit] select, button{
   transition: 2s;
   margin-top: 15px;
 }
-button[type=submit] select, button:hover{
+.form button[type=submit] select, form button:hover{
   color: #B2EFCF;
   background-color: black;
 }
@@ -416,13 +434,21 @@ button[type=submit] select, button:hover{
 .svg{
   z-index: 1;
 }
+body.gallery footer svg{
+  display: none;
+}
+body.gallery footer form{
+  margin:0 auto;
+}
+.gallery #contact{
+  padding: 6vw;
+}
 #image{
   background-image:url('/images/shirakawa-go.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  max-height:120vh;
-  height:120vh;
+  height:100vh;
   background-color: #f2f4f1;
   align-items: center;
   justify-content:flex-end;
@@ -435,10 +461,6 @@ button[type=submit] select, button:hover{
   padding: 20px;
 
 }
-
-
-
-
 /*Quiz css starts here*/
 .quiz button{
   border:3px solid #F2F4F1;
@@ -450,10 +472,6 @@ button[type=submit] select, button:hover{
   margin-right: 10px;
   font-size: 20px;
   padding:20px;
-}
-.quiz button:hover{
-  border:1px solid #F2F4F1;
-  background-color: #B2EFCF;
 }
 .quiz nav{
   text-align: center;

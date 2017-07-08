@@ -2,7 +2,7 @@
 <html>
   <head>
 <!--Meta-->
-    <meta name="viewport" content="width=device-width, intial-scale=1.0, user-scalable=0">
+    <meta name="viewport" content="width=device-width, user-scalable=0">
     <title>Justyn Jen</title>
     <meta name="keywords" content="justyn gourdin, entrepreneur, blogger, traveler, web developer">
     <meta name="description" content="This is a personal portfolio for all of Justyn's work">
@@ -15,7 +15,7 @@
 <!--Scripts-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.7/typed.min.js"></script>
   </head>
-  <body>
+  <body class="">
     <header id="home"><!--This is where my header starts -->
       <nav class="main-nav"><!--My navigation menu that I will have as a hamburger menu-->
         <a href="/index.html">Home</a>
@@ -33,14 +33,14 @@
       <svg viewBox="0 0 100 10" class="up about">
         <polygon points="0,0 100,0 50,10" class="about">
       </svg>
-      <div class="grid-noGutter">
+      <div class="grid-noGutter-middle">
         <div class="col-4_sm-12 type">
           <h1 id="typed">Traveler</h1><!--Can these type out on the screen? Also would that look cool?-->
         </div>
         <div class="col-4_sm-12 picfour">
           <img src="images/me-tiny.jpg" alt="me" class="me">
         </div>
-        <div class="col-4_sm-12 icons">
+        <div class="col-4_sm-12 icons centerIcons">
         <nav class="center">
           <ul>
           <li>
@@ -116,7 +116,7 @@
         <form method="POST" action="http://formspree.io/justyngourdin@gmail.com" class="col-6_sm-12">
             <p>My
               <label for="your-name">name</label> is
-              <input type="text" name= "your-name" id="your name" minlength="3" placeholder="(your name here)" required>and</p>
+              <input type="text" name= "your-name" id="your name" minlength="3" placeholder="(your name)" required>and</p>
 
             <p>my
               <label for="email">email address</label> is
@@ -126,9 +126,9 @@
               <label for="your-message">message</label> for you,</p>
 
             <p>
-              <textarea name="your-message" id="your-message" placeholder="(your msg here)" class="expanding" required></textarea>
+              <textarea name="your-message" id="your-message" placeholder="(your msg)" class="expanding" required></textarea>
             </p>
-            <button type="submit"<i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+            <button type="submit"><i class="fa fa-paper-plane form" aria-hidden="true"></i></button>
         </form>
     </footer>
     <nav id="mobile-nav">
