@@ -23,8 +23,8 @@
   });
 
   $('#typed').typed({
-    strings:["I hate Javasript"],
-    typeSpeed: 60,
+    strings:["Traveler", "Blogger", "Belieber"],
+    typeSpeed: 90,
     backDelay: 800,
     loop: true,
     cursor: true

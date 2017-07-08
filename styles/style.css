@@ -389,8 +389,31 @@ button[type=submit] select, button:hover{
   color: #f9fded;
   background-color: black;
 }
+/*Gallery css starts here. It has the loop page from the default layout.*/
+.title{
+  padding: 90px;
+  background-color:#F2F4F1;
+}
+.svg{
+  z-index: 1;
+}
+#image{
+  background-image:url('/images/shirakawa-go.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height:70vh;
+   height:70vh;
+   margin-top:-5px;
+   z-index: 2;
+}
+
+
+
+
+/*Quiz css starts here*/
 .quiz button{
-  border:3px solid #ECEFEA;
+  border:3px solid #F2F4F1;
   background-color: #F9CAD4;
   transition: 2s;
   border-radius: 16px;
@@ -401,7 +424,7 @@ button[type=submit] select, button:hover{
   padding:20px;
 }
 .quiz button:hover{
-  border:1px solid #ECEFEA;
+  border:1px solid #F2F4F1;
   background-color: #F9CAD4;
 }
 .quiz nav{
