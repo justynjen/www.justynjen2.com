@@ -25,12 +25,17 @@ h1, h2, h3, h4, h5, h6{
 }
 h2{
   font-size: 35px;
+  color:#6EAB92;
 }
 h3{
   font-size: 18px;
+  color:#6EAB92;
 }
 h1{
   font-size: 80px;
+  color:#6EAB92;
+  margin-bottom: 0;
+  min-height: 120px;
 }
 p{
   font-family: 'Josefin Slab', serif;
@@ -52,24 +57,26 @@ li{
 }
 /*Header Styles*/
 header{
-    background-color: #F9CAD4;
-    padding-top: 4%;
+    background-color: #B2EFCF;
+    padding-top: 10px;
     padding-bottom: 4%;
 }
 header h2{
-  color:#f2f4f1;
+  color:#6EAB92;
+  margin-top: 35px;
 }
 nav{
   text-align: right;
 }
 nav a{
   /*Nav for your anchor links, like hover or text color*/
-  color: #F2F4F1;
-  background: #F9CAD4;
+  color:#6EAB92;
+  background: #B2EFCF;
   padding: 1%;
   text-align: center;
   font-weight: bold;
   font-size: 20px;
+  margin-top: 0;
   /*align-content: center;
   align-content:space-between;*/
 }
@@ -82,7 +89,7 @@ nav a{
   left:0;
   height: 100vh;
   width: 100vw;
-  background-color: #F9CAD4;
+  background-color: #B2EFCF;
   z-index: 1;
   display: flex;
   flex-direction: column;
@@ -133,7 +140,7 @@ nav a{
 }*/
 #about a{
   display: inline-block;
-  color: #F9CAD4;
+  color: #6EAB92;
   background-color: #f2f4f1;
 }
 .icons{
@@ -148,10 +155,7 @@ nav a{
 .picfour{
     overflow: hidden;
 }
-#about .picfour img{
-  border: 3px #F9CAD4 solid;
-  border-radius: 20px;
-}
+
 .center{
   text-align: center;
   justify-content: space-around;
@@ -166,7 +170,7 @@ polygon{
   fill:#F2F4F1;
 }
 .about polygon{
-  fill: #F9CAD4;
+  fill: #B2EFCF;
 }
 .down{
   bottom: 0;
@@ -205,7 +209,7 @@ polygon{
     border: none;
   }
   #about .picfour img{
-    border: 3px #F9CAD4 solid;
+    border: 3px #B2EFCF solid;
     border-radius: 18px;
   }
 }
@@ -240,35 +244,41 @@ polygon{
 
 /*section three*/
 #timeline{
-  padding-bottom: 14vw;
   padding-top: 10vw;
   padding-left: 2%;
   padding-right: 2%;
 }
 #timeline .text-right{
   text-align: right;
-  padding-right: 40px;
-  padding-top: 4px;
+  padding-right: 20px;
+  padding-top: 10px;
 }
 #timeline .text-left{
   text-align: left;
-  padding-left: 40px;
-  padding-top: 4px;
+  padding-left: 20px;
+  padding-top: 10px;
 }
 .left .fa{
-  margin-left: -54px;
+  margin-left: -28px;
   font-size: 32px;
+  background-color: white;
 }
 .right .fa{
-  margin-right: -54px;
+  margin-right: -28px;
   font-size: 32px;
+  background-color: white;
 }
 .left{
-  border-left:3px solid #F9CAD4;
+  border-left:3px solid #B2EFCF;
 }
-.right{
-  border-right:3px solid #f2f4f1;
+.timelineFix{
+  height:14vw;
 }
+
+/*.right{
+  border-right:3px solid #f2f4f1;*/
+
+/*media queries for the timeline*/
 @media all and (max-width:768px) {
   #timeline{
     padding-top: 17vw;
@@ -303,11 +313,13 @@ polygon{
     padding: 0;
     line-height: 1.5;
   }
-  .left,
-  .right{
+  .left{
     border: none;
     text-align: center;
     padding: 0 40px;
+  }
+  .right{
+    text-align: center;
   }
   .right .fa,
   .left .fa{
@@ -319,11 +331,12 @@ polygon{
   #timeline .space-bottom{
     margin-bottom: 40px;
   }
-  #timeline .large{
-    color:#F9CAD4;
+  #timeline .diamonds{
+    color:#B2EFCF;
   }
+
 }
-/*Media Queries*/
+/*Media Queries for the gallery*/
 @media all and (max-width:768px){
   #gallery img{
     margin:0;
@@ -331,7 +344,7 @@ polygon{
 }
 /*footer styles*/
 #contact{
-  background-color: #F9CAD4;
+  background-color: #B2EFCF;
   position: relative;
   padding-top:19vw;
 }
@@ -340,7 +353,7 @@ polygon{
   z-index: 0;
 }
 #contact .pink-up polygon{
-  fill:#F9CAD4;
+  fill:#B2EFCF;
   top: -70;
 }
 form{
@@ -381,18 +394,20 @@ input [type=name] select, input, textarea{
 }
 button[type=submit] select, button{
   border:none;
-  background-color: #F9CAD4;
+  background-color: #B2EFCF;
   padding:10px;
   transition: 2s;
 }
 button[type=submit] select, button:hover{
-  color: #f9fded;
+  color: #B2EFCF;
   background-color: black;
 }
 /*Gallery css starts here. It has the loop page from the default layout.*/
 .title{
-  padding: 90px;
+  padding-top: 100px;
   background-color:#F2F4F1;
+  margin-top: 25px;
+  margin: 0;
 }
 .svg{
   z-index: 1;
@@ -402,10 +417,19 @@ button[type=submit] select, button:hover{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  max-height:70vh;
-   height:70vh;
-   margin-top:-5px;
-   z-index: 2;
+  max-height:120vh;
+  height:120vh;
+  background-color: #f2f4f1;
+  align-items: center;
+  justify-content:flex-end;
+  margin-right: 10px;
+  display: flex;
+}
+.imageText{
+  font-size: 75px;
+  background-color: rgba(242, 244, 241, 0.47);
+  padding: 20px;
+
 }
 
 
@@ -414,7 +438,7 @@ button[type=submit] select, button:hover{
 /*Quiz css starts here*/
 .quiz button{
   border:3px solid #F2F4F1;
-  background-color: #F9CAD4;
+  background-color: #B2EFCF;
   transition: 2s;
   border-radius: 16px;
   font-family:'josefin-slab';
@@ -425,14 +449,14 @@ button[type=submit] select, button:hover{
 }
 .quiz button:hover{
   border:1px solid #F2F4F1;
-  background-color: #F9CAD4;
+  background-color: #B2EFCF;
 }
 .quiz nav{
   text-align: center;
   padding: 30px;
 }
 .quiz{
-  background-color: #F9CAD4;
+  background-color: #B2EFCF;
   padding:15%;
   font-size: 30px;
 }
