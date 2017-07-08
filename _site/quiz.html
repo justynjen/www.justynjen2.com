@@ -7,7 +7,25 @@
     <script src="https://use.fontawesome.com/6080fd791b.js"></script>
   </head>
   <body>
-    <section id="quiz-frame" class="quiz active">
+    <section class="quiz-formPopup">
+      <form method="POST" action="http://formspree.io/justyngourdin@gmail.com">
+        <i class="fa fa-times-circle-o" aria-hidden="true"></i>
+        <p>My
+          <label for="your-name">name</label> is
+          <input type="text" name= "your-name" id="your name" minlength="3" placeholder="(your name)" required>and</p>
+          <p>my
+          <label for="email">email address</label> is
+          <input type="email" name="your-email" id="email" placeholder="(your email address)" required>
+        </p>
+        <p> I
+          <label for="your-message">want</label> a quiz! </p>
+          <p>
+          <textarea name="your-message" id="your-message" placeholder="(your msg)" class="expanding" required></textarea>
+        </p>
+        <button type="submit"><i class="fa fa-paper-plane form" aria-hidden="true"></i></button>
+      </form>
+    </section>
+    <section id="quiz-frame" class="quiz quiz-1-frame active">
       <h2>Ready to go out in Canggu? <img src="images/clink.png" alt="clink-drink"></h2>
       <nav>
         <button class="quiz-3" type="button" name="button">Yes Please!</button>
@@ -16,6 +34,10 @@
     </section>
     <section class="quiz quiz-2-frame">
       <h2>You're lame.<i class="fa fa-thumbs-o-down" aria-hidden="true"></i></h2>
+      <nav>
+        <button class="quiz-1" type="button" name="button">Start Over</button>
+        <button class="quiz-form" type="button" name="button">Get a quiz</button>
+      </nav>
     </section>
     <section id="quiz-frame" class="quiz quiz-3-frame">
       <h2>What do you feel like doing?</h2>
@@ -32,7 +54,15 @@
       </nav>
     </section>
     <section class="quiz quiz-5-frame">
-        <h2>Tinder it up</h2>
+        <h2>Use Tinder you sexy fox</h2>
+        <h3>Are you a potatoe? Because you look like one.</h3>
+        <h3>Your ass is so nice, it's a shame you have to sit down.</h3>
+        <h3>Are you from Russia? Cause you are russian my heart rate.</h3>
+        <h3>Do you have a name? Or can I call you mine</3>
+        <nav>
+          <button class="quiz-1" type="button" name="button">Start Over</button>
+          <button class="quiz-form" type="button" name="button">Get a quiz</button>
+        </nav>
     </section>
     <section class="quiz quiz-6-frame">
       <h2>Do you want photos with your friends?</h2>
@@ -43,17 +73,27 @@
     </section>
     <section class="quiz quiz-7-frame">
       <h2>La Laguna is your jam</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15776.900261650966!2d115.144098!3d-8.670134!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xad64ec796b5f099b!2sLa+Laguna!5e0!3m2!1sen!2sid!4v1499509071371" width="400" height="300" frameborder="0" style="border:0" class="maps" allowfullscreen></iframe>
+      <nav>
+        <button class="quiz-1" type="button" name="button">Start Over</button>
+        <button class="quiz-form" type="button" name="button">Get a quiz</button>
+      </nav>
     </section>
     <section class="quiz quiz-8-frame">
       <h2>How late do you want to stay out?</h2>
       <nav>
-        <button class="quiz quiz-9"type="button" name="button">Out till sunrise Bitches</button>
+        <button class="quiz quiz-9"type="button" name="button">Out till sunrise</button>
         <button class="quiz-10"type="button" name="button">Home by 11, I don't want to die tomorrow</button>
         <button class="quiz-7"type="button" name="button">Home by 7 for the grans</button>
       </nav>
     </section>
     <section class="quiz quiz-9-frame">
       <h2>You're going to Sandbar! Congratulations</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126231.9257432512!2d115.07425708883669!3d-8.62020545680179!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd238767dbdb553%3A0x2d4a563faec2b492!2sSand+Bar!5e0!3m2!1sen!2sid!4v1499521394603" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <nav>
+        <button class="quiz-1" type="button" name="button">Start Over</button>
+        <button class="quiz-form" type="button" name="button">Get a quiz</button>
+      </nav>
     </section>
     <!-- <section class="quiz quiz-10-frame">
       <h2>Do you want a tattoo</h2>
@@ -64,23 +104,36 @@
     </section> -->
     <section class="quiz quiz-11-frame">
       <h2>Get your ass to Old Man's</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.341754003691!2d115.12854365021508!3d-8.659010793747482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2387daec155db%3A0x7fa32c5e3dc6fe8d!2sOld+Mans+Restaurant!5e0!3m2!1sen!2sid!4v1499521533513" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <nav>
+        <button class="quiz-1" type="button" name="button">Start Over</button>
+        <button class="quiz-form" type="button" name="button">Get a quiz</button>
+      </nav>
     </section>
     <section class="quiz quiz-10-frame">
       <h2>What kind of guys are in too?</h2>
       <nav>
         <button class="quiz-13"type="button" name="button">Biker Dudes</button>
-        <button class="quiz-11" type="button" name="button">All the tourists</button>
+        <button class="quiz-11" type="button" name="button">Surfers</button>
         <button class="quiz-15"type="button" name="button">Hipsters</button>
       </nav>
     </section>
     <section class="quiz quiz-13-frame">
-      <h2>Deus is yo jam</h2>
+      <h2>Deus is yo jam</h2><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.4232276914686!2d115.13107945021493!3d-8.65123599375293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd23879701cb0b3%3A0x661ecdda57ac3f15!2sDeus+Ex+Machina+-+Temple+of+Enthusiasm!5e0!3m2!1sen!2sid!4v1499521558938" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <nav>
+        <button class="quiz-1" type="button" name="button">Start Over</button>
+        <button class="quiz-form" type="button" name="button">Get a quiz</button>
+      </nav>
     </section>
-    <section class="quiz quiz-14-frame">
+    <!-- <section class="quiz quiz-14-frame">
       <h2>Pick your posion at Pretty Posion babe</h2>
-    </section>
+    </section> -->
     <section class="quiz quiz-15-frame">
       <h2>Head over to the lawn you sexy fox</h2>
+      <nav><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.3473868142983!2d115.12755055021515!3d-8.658473493747886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd24787d5600789%3A0xddcc6236335403f0!2sThe+Lawn!5e0!3m2!1sen!2sid!4v1499521450764" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <button class="quiz-1" type="button" name="button">Start Over</button>
+        <button class="quiz-form" type="button" name="button">Get a quiz</button>
+      </nav>
     </section>
     <!--jQuery include this first-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

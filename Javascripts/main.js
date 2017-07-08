@@ -30,7 +30,18 @@
     cursor: true
   });
 });
-$('.quiz-2').click(function(){
+$('.quiz-form').click(function() {
+  $('.quiz-formPopup').addClass('popped');
+});
+$('.fa-times-circle-o').click(function(){
+  $('.quiz-formPopup').removeClass('popped');
+});
+
+$('.quiz-1').click(function() {
+  $('.quiz').removeClass('active');
+  $('.quiz-1-frame').addClass('active');
+});
+$('.quiz-2').click(function() {
   $('.quiz').removeClass('active');
   $('.quiz-2-frame').addClass('active');
 });
