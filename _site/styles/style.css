@@ -213,10 +213,6 @@ polygon{
     padding: 30px;
     border: none;
   }
-  #about .picfour img{
-    border: 3px #B2EFCF solid;
-    border-radius: 18px;
-  }
 }
 /*section two*/
   /*Make these pictures a max width of 100%*/
