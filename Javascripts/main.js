@@ -23,7 +23,7 @@
   });
 
   $('#typed').typed({
-    strings:["Traveler", "Blogger", "Belieber"],
+    strings:["Traveler", "Blogger", "Front-end Developer", "Digital Nomad"],
     typeSpeed: 90,
     backDelay: 800,
     loop: true,
