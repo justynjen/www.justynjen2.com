@@ -122,6 +122,11 @@ nav a:hover{
 }
 /*Header media queries*/
 @media all and (max-width:768px){
+  .mobile-nav{
+    z-index: 1;
+  }
+}
+@media all and (max-width:768px){
   .hamburger{
     display: block;
     position: absolute;
