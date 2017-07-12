@@ -270,16 +270,16 @@ polygon{
 .left .fa{
   margin-left: -28px;
   font-size: 32px;
-  background-color: white;
+  background-color: #D8D6D8;
   margin-top: 2vw;
 }
 .right .fa{
   margin-right: -28px;
   font-size: 32px;
-  background-color: white;
+  background-color: #D8D6D8;
 }
 .left{
-  border-left:3px solid #D8D6D8;
+  border-left:3px solid #929092;
 }
 .timelineFix{
   height:14vw;
