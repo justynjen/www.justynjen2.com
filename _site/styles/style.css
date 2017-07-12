@@ -32,7 +32,7 @@ h3{
   color:#6EAB92;
 }
 h1{
-  font-size: 80px;
+  font-size: 60px;
   color:#6EAB92;
   margin-bottom: 0;
   min-height: 120px;
@@ -122,11 +122,16 @@ nav a:hover{
 }
 /*Header media queries*/
 @media all and (max-width:768px){
+  .mobile-nav{
+  }
+}
+@media all and (max-width:768px){
   .hamburger{
     display: block;
     position: absolute;
     right: 18px;
     color: #f2f4f1;
+    z-index: 1;
   }
   .main-nav a{
     display: none;
@@ -337,6 +342,7 @@ polygon{
   }
   #timeline .diamonds{
     color:#B2EFCF;
+    display: none;
   }
 
 }
