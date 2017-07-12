@@ -130,7 +130,7 @@ nav a:hover{
     display: block;
     position: absolute;
     right: 18px;
-    color: #f2f4f1;
+    color: #F9F7F9;
     z-index: 1;
   }
   .main-nav a{
@@ -160,13 +160,13 @@ nav a:hover{
 #about a{
   display: inline-block;
   color: #6EAB92;
-  background-color: #f2f4f1;
+  background-color: #F9F7F9;
 }
 .icons{
   margin-top: -8vw;
 }
 #about{
-  background-color: #F2F4F1;
+  background-color: #F9F7F9;
   padding-top: 16%;
   position: relative;
   justify-content:space-around;
@@ -185,7 +185,7 @@ svg{
   width: 100%;
 }
 polygon{
-  fill:#F2F4F1;
+  fill:#F9F7F9;
 }
 .about polygon{
   fill: #D8D6D8;
@@ -237,7 +237,7 @@ polygon{
   margin-top: 100px;
 }
 #gallery div{
-  background-color: #F2F4F1;
+  background-color: #F9F7F9;
 }
 #gallery svg{
   position: absolute;
@@ -285,7 +285,7 @@ polygon{
 }
 
 /*.right{
-  border-right:3px solid #f2f4f1;*/
+  border-right:3px solid #F9F7F9;*/
 
 /*media queries for the timeline*/
 @media all and (max-width:768px) {
@@ -421,7 +421,7 @@ button[type=submit] select, button{
 /*Gallery css starts here. It has the loop page from the default layout.*/
 .title{
   padding-top: 100px;
-  background-color:#F2F4F1;
+  background-color:#F9F7F9;
   margin-top: 25px;
   margin: 0;
 }
@@ -443,7 +443,7 @@ body.gallery footer form{
   background-repeat: no-repeat;
   background-size: cover;
   height:100vh;
-  background-color: #f2f4f1;
+  background-color: #F9F7F9;
   align-items: center;
   justify-content:flex-end;
   margin-right: 10px;
@@ -457,7 +457,7 @@ body.gallery footer form{
 }
 /*Quiz css starts here*/
 .quiz button{
-  border:3px solid #F2F4F1;
+  border:3px solid #F9F7F9;
   background-color: #D8D6D8;
   transition: 2s;
   border-radius: 16px;
@@ -504,7 +504,7 @@ section.popped{
   width: 30vw;
   z-index: 1;
   right: 33.5vw;
-  background-color: #F2F4F1;
+  background-color: #F9F7F9;
   padding: 5%;
   margin-top: 3%;
 }
