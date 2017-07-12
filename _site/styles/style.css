@@ -25,15 +25,15 @@ h1, h2, h3, h4, h5, h6{
 }
 h2{
   font-size: 35px;
-  color:#6EAB92;
+  color:#929092;
 }
 h3{
   font-size: 25px;
-  color:#6EAB92;
+  color:#929092;
 }
 h1{
   font-size: 60px;
-  color:#6EAB92;
+  color:#929092;
   margin-bottom: 0;
   min-height: 120px;
 }
@@ -59,7 +59,7 @@ li{
   list-style: none;
 }
 li .fa:hover{
-  color: #B2EFCF;
+  color: #D8D6D8;
   transition: 1s;
 }
 .alignright{
@@ -69,7 +69,7 @@ li .fa:hover{
 }
 /*Header Styles*/
 header{
-    background-color: #B2EFCF;
+    background-color: #D8D6D8;
     padding-top: 10px;
     padding-bottom: 4%;
 }
@@ -83,7 +83,7 @@ nav{
 nav a{
   /*Nav for your anchor links, like hover or text color*/
   color:#6EAB92;
-  background: #B2EFCF;
+  background: #D8D6D8;
   padding: 1%;
   text-align: center;
   font-weight: bold;
@@ -105,7 +105,7 @@ nav a:hover{
   left:0;
   height: 100vh;
   width: 100vw;
-  background-color: #B2EFCF;
+  background-color: #D8D6D8;
   z-index: 1;
   display: flex;
   flex-direction: column;
@@ -188,7 +188,7 @@ polygon{
   fill:#F2F4F1;
 }
 .about polygon{
-  fill: #B2EFCF;
+  fill: #D8D6D8;
 }
 .down{
   bottom: 0;
@@ -278,7 +278,7 @@ polygon{
   background-color: white;
 }
 .left{
-  border-left:3px solid #B2EFCF;
+  border-left:3px solid #D8D6D8;
 }
 .timelineFix{
   height:14vw;
@@ -341,7 +341,7 @@ polygon{
     margin-bottom: 40px;
   }
   #timeline .diamonds{
-    color:#B2EFCF;
+    color:#D8D6D8;
     display: none;
   }
 
@@ -355,7 +355,7 @@ polygon{
 /*footer styles*/
 
 #contact{
-  background-color: #B2EFCF;
+  background-color: #D8D6D8;
   position: relative;
   padding-top:16vw;
 }
@@ -364,7 +364,7 @@ polygon{
   z-index: 0;
 }
 #contact .pink-up polygon{
-  fill:#B2EFCF;
+  fill:#D8D6D8;
   top: -70;
 }
 form.main{
@@ -409,13 +409,13 @@ input [type=name] select, input, textarea{
 }
 button[type=submit] select, button{
   border:none;
-  background-color: #B2EFCF;
+  background-color: #D8D6D8;
   padding:10px;
   /*transition: 2s;*/
   margin-top: 15px;
 }
 .form button[type=submit] select, form button:hover{
-  color: #B2EFCF;
+  color: #D8D6D8;
   background-color: black;
 }
 /*Gallery css starts here. It has the loop page from the default layout.*/
@@ -458,7 +458,7 @@ body.gallery footer form{
 /*Quiz css starts here*/
 .quiz button{
   border:3px solid #F2F4F1;
-  background-color: #B2EFCF;
+  background-color: #D8D6D8;
   transition: 2s;
   border-radius: 16px;
   font-family:'josefin-slab';
@@ -472,7 +472,7 @@ body.gallery footer form{
   padding: 30px;
 }
 .quiz{
-  background-color: #B2EFCF;
+  background-color: #D8D6D8;
   padding:15%;
   font-size: 30px;
 }
