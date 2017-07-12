@@ -25,15 +25,15 @@ h1, h2, h3, h4, h5, h6{
 }
 h2{
   font-size: 35px;
-  color:#929092;
+  color:#484648;
 }
 h3{
   font-size: 25px;
-  color:#929092;
+  color:#484648;
 }
 h1{
   font-size: 60px;
-  color:#929092;
+  color:#484648;
   margin-bottom: 0;
   min-height: 120px;
 }
@@ -74,7 +74,7 @@ header{
     padding-bottom: 4%;
 }
 header h2{
-  color:#6EAB92;
+  color:#484648;
   margin-top: 35px;
 }
 nav{
@@ -82,7 +82,7 @@ nav{
 }
 nav a{
   /*Nav for your anchor links, like hover or text color*/
-  color:#6EAB92;
+  color:#484648;
   background: #D8D6D8;
   padding: 1%;
   text-align: center;
