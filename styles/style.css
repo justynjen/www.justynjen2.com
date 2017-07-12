@@ -123,7 +123,6 @@ nav a:hover{
 /*Header media queries*/
 @media all and (max-width:768px){
   .mobile-nav{
-    z-index: 9;
   }
 }
 @media all and (max-width:768px){
@@ -343,6 +342,7 @@ polygon{
   }
   #timeline .diamonds{
     color:#B2EFCF;
+    display: none;
   }
 
 }
