@@ -319,9 +319,11 @@ polygon{
   }
   #entry-7{
     order:7;
+    z-index: 1;
   }
   #entry-8{
     order:8;
+    z-index: 1;
   }
   #timeline .text-left,
   #timeline .text-right{
@@ -333,6 +335,9 @@ polygon{
     border: none;
     text-align: center;
     padding: 0 40px;
+  }
+  p .text-left{
+    padding-bottom: 15%;
   }
   .right{
     text-align: center;
