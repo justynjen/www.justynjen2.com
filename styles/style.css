@@ -224,6 +224,9 @@ polygon{
     padding: 30px;
     border: none;
   }
+  p .fix{
+    padding-bottom: 15%;
+  }
 }
 /*section two*/
   /*Make these pictures a max width of 100%*/
@@ -336,8 +339,9 @@ polygon{
     text-align: center;
     padding: 0 40px;
   }
-  p .text-left{
+  p .fix{
     padding-bottom: 15%;
+    z-index: 2;
   }
   .right{
     text-align: center;
@@ -351,6 +355,7 @@ polygon{
   }
   #timeline .space-bottom{
     margin-bottom: 40px;
+    padding-bottom: 15%;
   }
   #timeline .diamonds{
     color:#D8D6D8;
