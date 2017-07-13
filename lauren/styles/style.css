@@ -1,0 +1,178 @@
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+}
+img{
+  max-width:100%;
+}
+body{
+  /*Font Family for entire webpage*/
+ overflow-x: hidden;
+ line-height: 1.5;
+}
+section{
+  position: relative;
+}
+a{
+  text-decoration: none; /*Removes underline from anchor links*/
+  color: black;
+}
+h1, h2, h3, h4, h5, h6{
+  color: #722F37;
+  font-family: 'Kurale', serif;
+}
+p{
+  padding:5%;
+}
+/*Header styles will go here*/
+/*Header media queries*/
+h1{
+  text-align: center;
+  font-size: 80px;
+}
+h2{
+  font-size: 35px;
+}
+h3{
+  font-size: 30px;
+}
+h4{
+  font-size: 25px;
+}
+.social{
+  margin: 1%;
+  padding: 2%;
+}
+.menu{
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 0;
+  font-family:'josefin slab';
+  font-weight: bold;
+  align-content: space-between;
+  margin: 2rem auto;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.48);
+  padding: 1%;
+  margin-bottom: 1%;
+}
+.menu a{
+  padding:4%;
+  font-weight: bold;
+}
+#hero{
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center;
+  background-image: url("../images/beach.jpeg");
+}
+
+/*Section 1*/
+h5{
+  font-size: 30px;
+}
+h6{
+  font-size: 25px;
+}
+.text-center{
+  text-align: center;
+  background-color:rgba(242, 244, 241, 0.47);
+  padding: 20%;
+  position: relative;
+  background-image: url("../images/puppy.png");
+  background-size: cover;
+  min-height: 400px;
+}
+.promo-image{
+  position: relative;
+  width: 100%;
+}
+
+/*Section 1 media queries*/
+
+/*Section 2*/
+.text{
+  text-align: center;
+  background-color: #95a986;
+  padding:10%;
+}
+.tag{
+  border: 1px solid black;
+  padding: 2%;
+  margin: 4%;
+}
+.rightText{
+  text-align: right;
+}
+.uppercase{
+  text-align: right;
+}
+.spacing{
+  padding: 5%;
+}
+/*Section 2 Queries*/
+
+/*Section 3*/
+.centered{
+  text-align: center;
+  padding: 2%;
+}
+.posts{
+  padding: 5%;
+}
+h3{
+  font-size: 25px;
+}
+/*Section 3 Queries*/
+
+/*footer styles*/
+/*form media styles*/
+.centered{
+  align-content: center;
+}
+.mainForm{
+  background-repeat: no-repeat;
+  background-size:cover;
+  min-height: 25vh;
+  width: 960px;
+  background-position:center;
+  font-size: 25px;
+  align-items: center;
+  background-image: url("https://static.pexels.com/photos/164642/pexels-photo-164642.jpeg");
+}
+.mainForm p{
+  padding:0;
+  margin-top: 25px;
+}
+input{
+  width: 190px;
+  font-size: 15px;
+  text-align: center;
+}
+textarea{
+  text-align: center;
+  font-size: 15px;
+}
+.moveDown{
+  margin-top: 40px;
+}
+.footer{
+  background-color: #95a986;
+}
+footer .fa{
+  padding:4%;
+  padding-bottom: 1%;
+  color: #722F37;
+}
+.button{
+  margin-bottom: 10px;
+  border: none;
+  color: #722F37;
+  background-color: #97a986;
+  font-size: 15px;
+}
+
+/*footer media queries*/
