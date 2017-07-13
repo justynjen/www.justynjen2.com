@@ -75,6 +75,9 @@ header{
     padding-top: 10px;
     padding-bottom: 4%;
 }
+.fa, .fa-plane{
+  color: #3E4053;
+}
 header h2{
   color:#484648;
   margin-top: 35px;
