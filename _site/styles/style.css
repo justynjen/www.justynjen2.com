@@ -55,7 +55,7 @@ ul{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #484648;
+  color: #4F729B;
 }
 li{
   list-style: none;
@@ -76,7 +76,7 @@ header{
     padding-bottom: 4%;
 }
 .fa, .fa-plane{
-  color: #3E4053;
+  color: #4F729B;
 }
 header h2{
   color:#484648;
