@@ -16,6 +16,12 @@ h1{
 p{
   font-family: 'Work Sans', sans-serif;
 }
+h2{
+  font-family:'Dawning of a New Day', cursive;
+  color: #CBBBAB;
+  font-size: 80px;
+  text-align: center;
+}
 .hero h2{
   font-family: 'Dawning of a New Day',cursive;
   font-size: 55px;
@@ -31,7 +37,7 @@ p{
 .hero{
   background-size: cover;
   background-repeat: none;
-  margin-bottom: 3%;
+  margin-bottom: 8%;
 }
 
 /*Section 1*/
@@ -43,11 +49,16 @@ p{
   width: 300px;
   border-radius: 50%;
   text-align: center;
-  font-size: 50px;
   font-family: 'Work Sans', sans-serif;
   position: absolute;
   background-color: white;
   color: #CBBBAB;
+}
+.bookNow h2{
+  font-size: 65px;
+}
+.bookNow h4{
+  font-size: 30px;
 }
 /*.speech-bubble {
 	position: relative;
@@ -101,7 +112,7 @@ p{
 .tall{
   min-height: 100vh;
 }
-/*Section 2 */
+/*Section 3*/
 .editable2{
   display: flex;
   min-height: 100vh;
@@ -125,4 +136,78 @@ p{
 }
 .editable2 h3{
   font-size: 45px;
+}
+/*Testimonial section*/
+/* Bubble Slider */
+h1 #slides{
+
+  width: 100%;
+  text-align: center;
+  margin-top:50px;
+  color:hsla(360, 45%, 95%, .9);
+  letter-spacing: .8em;
+  font-size:2.5vw;
+  font-weight: normal;
+  opacity: .2;
+  text-transform: uppercase;
+  text-shadow: hsla(0, 45%, 5%, .3) 0 0 1px, hsla(360, 55%, 95%, .3) 0 -1px 2px,  hsla(0, 45%, 5%, .3) 0 -1px 2px, hsla(360, 55%, 95%, .3) 0 20px 15px;
+
+}
+section #slides{
+	width: 60%;
+	margin: 70px auto;
+  padding-bottom: 4%;
+}
+#slides{
+  padding-bottom: 4%;
+}
+.bubble blockquote {
+	margin: 10px 10px 0;
+	background: #fff;
+	padding: 60px;
+	position: relative;
+	border: none;
+	border-radius: 8px;
+	font-size: 1.25em;
+	color: black;
+}
+.bubble blockquote:before, .bubble blockquote:after {
+	content: "\201C";
+	position: absolute;
+	font-size: 80px;
+	padding: 10px;
+	line-height: 1;
+	color: #CBBBAB;
+}
+.bubble blockquote:before {
+	top: 0;
+	left: 10px;
+}
+.bubble blockquote:after {
+	content: "\201D";
+	right: 10px;
+	bottom: -.5em;
+}
+.bubble div {
+	width: 0;
+	height: 0;
+	border-left: 0 solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fff;
+	margin: 0 0 0 60px;
+	margin-bottom: 10px;
+}
+.bubble cite {
+	padding-left: 20px;
+	font-size: 1.25em;
+  color:black;
+}
+/*Contact section*/
+#contact{
+  background-color:#484B48;
+}
+#contact h2{
+  padding-bottom:18%;
+  padding-top:3%;
+  position: relative;
 }

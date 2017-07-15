@@ -8,21 +8,32 @@
     <meta name="description" content="This is a professional website for Katie Gourdin and her spray tan business">
 <!-- Stylesheets-->
     <link rel="stylesheet" href="styles/normalize.css"><!--normalize has to go first, then the fonts because the fonts need to load first. After the fonts you can add your style sheet-->
+    <style>
+    /* Prevents slides from flashing */
+    /*#slides {
+      display:none;
+    }*/
+    </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Work+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.3.7/gridlex.min.css">
     <link rel="stylesheet" href="styles/styles.css"/>
 <!--Scripts-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.7/typed.min.js"></script>
+    <style type="text/css">
+      .no-fouc {
+	     display: none;
+      }
+    </style>
   </head>
   <body>
     <header class="hero">
     <div>
       <h1>Endless Glow by Katie</h1>
-      <h2>You've never had a tan like this</h2>
-      <div class="glitterImage">
+      <h2>You've never had a tan like this before</h2>
+      <!-- <div class="glitterImage">
       <img src="images/glitter.png" alt="glitter streak for background">
-      </div>
+      </div> -->
     </div>
     <!--We will put a large image here with a quote about spray tanning. Maybe think about adding a book now button? I have got to talk to Katie an see if she wants a booking system or just people to email her for bookings for now.-->
     </header>
@@ -33,8 +44,10 @@
       </div>
       <div class="col-6">
         <div>
-          <button type="button" name="button" class="bookNow">Book your
-          tan now!</button>
+          <button type="button" name="button" class="bookNow">
+            <h2>Get Glowin'</h2>
+            <h4>Book Now!</h4>
+          </button>
           <!-- <p class="speech-bubble">Feeling like your just not getting that summer tan you were hoping for? Book a spray tan today for the safe alternative to spending all day out in the hot hot sun! </p> -->
         </div>
       </div>
@@ -67,5 +80,49 @@
         </div>
       </div>
     </section>
+    <!-- Slider -->
+  <section id="slides">
+    <h2>Testimonials</h2>
+  <div class="bubble">
+    <blockquote>Katie gives the best spray tan I have ever had. I had a perfect summer glow that lasts for weeks. Can't want to go back and get another one!
+    </blockquote>
+    <cite> Happy Client</cite>
+  </div>
+  <div class="bubble">
+    <blockquote> Best spray tan in Arizona! Katie is such a sweet lady. I was so grateful to get my tan on, and look so good for my vacation. I'll be going back to Katie every time.
+    </blockquote>
+    <cite> Happy Client </cite>
+  </div>
+  <div class="bubble">
+    <blockquote> My wedding party got spray tans from Katie and we all looked amazing on my special day. I am so grateful to Katie for helping me look my best. The tan looked so natural and perfect, I loved it.
+    </blockquote>
+    <cite> Happy Client</cite>
+  </div>
+</section>
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form method="POST" action="http://formspree.io/justyngourdin@gmail.com">
+  <input type="text" name= "name" placeholder="Jane Smith">
+  <input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
+</form>
+</section>
+
+<!--jQuery include this first-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--jQuery plugins - include this before main.js-->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="jquery.slides.min.js"></script>
+    <script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 940,
+        height: 528
+      });
+    });
+    </script>
+    <!--This is where our"own" javascript is - call this as the last script-->
+    <script src="javascript/main.js"></script>
   </body>
 </html>
