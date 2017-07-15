@@ -1,0 +1,128 @@
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+
+}
+img{
+  max-width:100%;
+}
+h1{
+  font-family:'Dawning of a New Day', cursive;
+  font-size: 100px;
+  text-align: center;
+  color: #CBBBAB;
+}
+p{
+  font-family: 'Work Sans', sans-serif;
+}
+.hero h2{
+  font-family: 'Dawning of a New Day',cursive;
+  font-size: 55px;
+  text-align: center;
+  color: #CBBBAB;
+  margin:-5%;
+  margin-left: 22%
+}
+.glitterImage{
+  margin-top: -13%;
+  margin-left: 20%;
+}
+.hero{
+  background-size: cover;
+  background-repeat: none;
+  margin-bottom: 3%;
+}
+
+/*Section 1*/
+.bookNow{
+  margin: 1%;
+  padding: 2%;
+  border: #CBBBAB solid 5px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Work Sans', sans-serif;
+  position: absolute;
+  background-color: white;
+  color: #CBBBAB;
+}
+/*.speech-bubble {
+	position: relative;
+	background: #CBBBAB;
+	border-radius: .4em;
+}
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 51px solid transparent;
+	border-bottom-color: #CBBBAB;
+	border-top: 0;
+	border-left: 0;
+	margin-left: -25.5px;
+	margin-top: -51px;
+}*/
+/*Section 2*/
+.editable{
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+
+}
+.editable p{
+  text-align: center;
+}
+.editable h2, h3{
+  text-align: left;
+  font-family:'Dawning of a New Day',cursive;
+  color: #CBBBAB;
+}
+.editable p{
+  line-height: 1.5;
+  font-size: 25px;
+}
+.editable h2{
+  font-size: 45px;
+  padding: 1%;
+  margin-top: 0%;
+  margin-left: 5%;
+  font-weight: bold;
+}
+.editable h3{
+  font-size: 55px;
+  text-align: left;
+}
+.tall{
+  min-height: 100vh;
+}
+/*Section 2 */
+.editable2{
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+}
+.editable2 p{
+  text-align: center;
+  line-height: 1.5;
+  font-size: 25px;
+}
+.editable2 h2, h3{
+  text-align: right;
+  font-family:'Dawning of a New Day',cursive;
+  color: #CBBBAB;
+}
+.editable2 h2{
+  font-size: 35px;
+  padding: 1%;
+  margin-left: 4%;
+  font-weight: bold;
+}
+.editable2 h3{
+  font-size: 45px;
+}
