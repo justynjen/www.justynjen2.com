@@ -116,6 +116,9 @@ h2{
 .services{
   background-color: #484B48;
 }
+.services h2{
+  padding-top: 2%;
+}
 .services h3{
   font-size: 40px;
   padding-top: 2%;
