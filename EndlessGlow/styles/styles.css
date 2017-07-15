@@ -118,9 +118,11 @@ h2{
 }
 .services h3{
   font-size: 40px;
+  padding-top: 2%;
 }
 .center{
   text-align: center;
+  padding-top: 2%;
 }
 /*Section 4*/
 .editable2{
