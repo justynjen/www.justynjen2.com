@@ -117,6 +117,9 @@ h2{
   background-color: #484B48;
   padding: 20%;
 }
+.services h3{
+  font-size: 30px;
+}
 /*Section 4*/
 .editable2{
   display: flex;
