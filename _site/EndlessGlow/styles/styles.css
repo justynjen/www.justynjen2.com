@@ -195,7 +195,7 @@ section #slides{
 	line-height: 1;
 	color: #CBBBAB;
 }
-.bubble blockquote:before {
+/*.bubble blockquote:before {
 	top: 0;
 	left: 10px;
 }
@@ -203,7 +203,7 @@ section #slides{
 	content: "\201D";
 	right: 10px;
 	bottom: -.5em;
-}
+}*/
 .bubble div {
 	width: 0;
 	height: 0;
@@ -225,16 +225,7 @@ section #slides{
 .imageHidden{
   display: none;
 }
-.previous, .next{
-  float:left;
-  margin-bottom: 4%;
-}
-.previous{
-  margin-right: 20px;
-}
-.next{
-  margin-left: 20px;
-}
+
 /*Contact section*/
 #contact{
   background-color:#484B48;
@@ -243,4 +234,18 @@ section #slides{
   padding-bottom:18%;
   padding-top:3%;
   position: relative;
+}
+.form{
+  position: relative;
+  text-align: center;
+}
+.input{
+  background: none;
+  position: absolute;
+  padding: 2%;
+}
+.textarea{
+  background: none;
+  position: absolute;
+  padding: 2%;
 }

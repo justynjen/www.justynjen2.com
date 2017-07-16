@@ -1,7 +1,43 @@
 $(document).ready(function() {
   console.log("Ready");
   // $('.no-fouc').removeClass('no-fouc');
+  $(".nextLink").on("click", function() {
+    var currentActiveLink = $(".imageShow");
+    var nextActiveImage = currentActiveImage.next();
+
+    if(nextActiveImage.length == 0)
+    {
+      nextActiveImage = $(".carouselInner .bubble").first();
+    }
+
+    currentActiveImage.removeClass("imageShow").addClass("imageHidden").css("z-index", -10);
+    nextActiveImage.addClass("imageShow").removeClass("imageHidden").css("z-index", 20);
+    $(".carouselInner div").not([currentActiveImage, nextActiveImage]).css("z-index", 1);
+
+    e.preventDefault();
+  });
+  $(".perviousLink").on("click", function() {
+    var currentActiveLink = $(".imageShow");
+    var nextActiveImage = currentActiveImage.next();
+
+    if(nextActiveImage.length == 0)
+    {
+      nextActiveImage = $(".carouselInner .bubble").last();
+    }
+
+    currentActiveImage.removeClass("imageShow").addClass("imageHidden").css("z-index", -10);
+    nextActiveImage.addClass("imageShow").removeClass("imageHidden").css("z-index", 20);
+    $(".carouselInner div").not([currentActiveImage, nextActiveImage]).css("z-index", 1);
+
+    e.preventDefault();
+  });
 });
+
+
+
+
+
+
 
 // $('#slides').slidesjs({
 //   dots: true,
