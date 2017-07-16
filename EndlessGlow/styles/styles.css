@@ -239,3 +239,13 @@ section #slides{
   position: relative;
   text-align: center;
 }
+.input{
+  background: none;
+  position: absolute;
+  padding: 2%;
+}
+.textarea{
+  background: none;
+  position: absolute;
+  padding: 2%;
+}
