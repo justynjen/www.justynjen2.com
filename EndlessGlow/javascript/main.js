@@ -5,11 +5,15 @@ $(document).ready(function() {
     var currentActiveLink = $(".imageShow");
     var nextActiveImage = currentActiveImage.next();
 
+    if(nextActiveImage.length == 0){
+      nextActiveImage = $(".carouselInner div")
+    }
+
     currentActiveImage.removeClass("imageShow").addClass("imageHidden").css("z-index", -10);
     nextActiveImage.addClass("imageShow").removeClass("imageHidden").css("z-index", 20);
-    $("#slides").not([currentActiveImage, nextActiveImage]).css("z-index", 1);
+    $(".carouselInner").not([currentActiveImage, nextActiveImage]).css("z-index", 1);
 
-    e.preventDefault();
+    e.preventDefault("");
   });
 });
 
