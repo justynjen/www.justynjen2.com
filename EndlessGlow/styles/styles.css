@@ -235,3 +235,7 @@ section #slides{
   padding-top:3%;
   position: relative;
 }
+.form{
+  position: relative;
+  text-align: center;
+}
