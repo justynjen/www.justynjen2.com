@@ -225,19 +225,7 @@ section #slides{
 .imageHidden{
   display: none;
 }
-.previous{
-  margin-right: 20px;
-  margin-bottom: 2%;
-  color: #CBBBAB;
-}
-.fa{
-  color: #CBBBAB;
-}
-.next{
-  margin-left: 20px;
-  margin-bottom: 2%;
-  color: #CBBBAB;
-}
+
 /*Contact section*/
 #contact{
   background-color:#484B48;
