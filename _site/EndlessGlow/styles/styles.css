@@ -227,6 +227,13 @@ section #slides{
 }
 .previous, .next{
   float:left;
+  margin-bottom: 4%;
+}
+.previous{
+  margin-right: 20px;
+}
+.next{
+  margin-left: 20px;
 }
 /*Contact section*/
 #contact{
