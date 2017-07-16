@@ -228,10 +228,12 @@ section #slides{
 .previous{
   margin-right: 20px;
   margin-bottom: 2%;
+  color: #CBBBAB;
 }
 .next{
   margin-left: 20px;
   margin-bottom: 2%;
+  color: #CBBBAB;
 }
 /*Contact section*/
 #contact{
