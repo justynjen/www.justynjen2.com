@@ -6,12 +6,12 @@ $(document).ready(function() {
     var nextActiveImage = currentActiveImage.next();
 
     if(nextActiveImage.length == 0){
-      nextActiveImage = $(".carouselInner div")
+      nextActiveImage = $(".carouselInner div").first();
     }
 
     currentActiveImage.removeClass("imageShow").addClass("imageHidden").css("z-index", -10);
     nextActiveImage.addClass("imageShow").removeClass("imageHidden").css("z-index", 20);
-    $(".carouselInner").not([currentActiveImage, nextActiveImage]).css("z-index", 1);
+    $(".carouselInner div").not([currentActiveImage, nextActiveImage]).css("z-index", 1);
 
     e.preventDefault("");
   });
