@@ -195,7 +195,7 @@ section #slides{
 	line-height: 1;
 	color: #CBBBAB;
 }
-.bubble blockquote:before {
+/*.bubble blockquote:before {
 	top: 0;
 	left: 10px;
 }
@@ -203,7 +203,7 @@ section #slides{
 	content: "\201D";
 	right: 10px;
 	bottom: -.5em;
-}
+}*/
 .bubble div {
 	width: 0;
 	height: 0;
