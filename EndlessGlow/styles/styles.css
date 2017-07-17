@@ -62,25 +62,18 @@ h2{
 .bookNow h4{
   font-size: 30px;
 }
-/*.speech-bubble {
-	position: relative;
-	background: #CBBBAB;
-	border-radius: .4em;
+.fa-angle-double-down{
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left:-20px;
+  margin-bottom: 2%;
+  width: 40px;
+  height: 40px;
+  color: #CBBBAB;
+  z-index: 1;
+  background-size: contain;
 }
-.speech-bubble:after {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 50%;
-	width: 0;
-	height: 0;
-	border: 51px solid transparent;
-	border-bottom-color: #CBBBAB;
-	border-top: 0;
-	border-left: 0;
-	margin-left: -25.5px;
-	margin-top: -51px;
-}*/
 /*Section 2*/
 .editable{
   display: flex;
@@ -116,7 +109,7 @@ h2{
 }
 /*Services-section 3*/
 .services{
-  background-color: #484B48;
+  background-color: rgba(72, 75, 72, 0.9);
   padding: 5%;
 }
 .services h2{
@@ -222,7 +215,9 @@ section #slides{
 	font-size: 1.25em;
   color:black;
 }
-
+.slider{
+  margin-bottom: 5%;
+}
 /*Contact section*/
 #contact{
   background-color:#484B48;
@@ -246,13 +241,6 @@ section #slides{
   font-size: 18px;
   color: #CBBBAB;
 }
-/*.input{
-  background: none;
-  background-color: #484b4b;
-  position: absolute;
-  padding: 2%;
-  border-bottom: #CBBBAB dashed 1px;
-}*/
 input [type=name] select, input, textarea{
  border:none;
  outline: none;
@@ -285,6 +273,7 @@ input [type=name] select, input, textarea{
   font-family: 'Work Sans' sans-serif;
   font-weight: lighter;
   padding-bottom: 10%;
+  padding: 2%;
 }
 .number h5{
   font-size: 30px;
@@ -292,4 +281,5 @@ input [type=name] select, input, textarea{
   font-weight: lighter;
   text-align: left;
   font-family: 'Work Sans' sans-serif;
+  padding: 2%;
 }
