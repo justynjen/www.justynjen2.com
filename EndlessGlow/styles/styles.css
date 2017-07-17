@@ -246,12 +246,27 @@ section #slides{
   font-size: 18px;
   color: #CBBBAB;
 }
-.input{
+/*.input{
   background: none;
   background-color: #484b4b;
   position: absolute;
   padding: 2%;
   border-bottom: #CBBBAB dashed 1px;
+}*/
+input [type=name] select, input, textarea{
+ border:none;
+ outline: none;
+ font-size: 19px;
+ font-weight: 300;
+ text-align: center;
+ background: none;
+ font-family: 'Work Sans', sans-serif;
+ max-width: 90%;
+ border-bottom: 1px dashed;
+ padding:15px;
+ cursor:text;
+ line-height: 2rem;
+ height:4rem;
 }
 .textarea{
   background: none;
@@ -262,12 +277,19 @@ section #slides{
 }
 .number{
   text-align: center;
+  margin-left: 4%;
 }
 .number h4{
   font-size: 35px;
   color: #CBBBAB;
+  font-family: 'Work Sans' sans-serif;
+  font-weight: lighter;
+  padding-bottom: 10%;
 }
 .number h5{
   font-size: 30px;
   color:#CBBBAB;
+  font-weight: lighter;
+  text-align: left;
+  font-family: 'Work Sans' sans-serif;
 }
