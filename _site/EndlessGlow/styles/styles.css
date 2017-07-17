@@ -117,9 +117,11 @@ h2{
 /*Services-section 3*/
 .services{
   background-color: #484B48;
+  padding: 5%;
 }
 .services h2{
   padding-top: 2%;
+  padding-bottom: 2%;
 }
 .services h3{
   font-size: 40px;
@@ -127,6 +129,7 @@ h2{
 }
 .center{
   text-align: center;
+  line-height: 1.5;
 }
 /*Section 4*/
 .editable2{
@@ -225,21 +228,46 @@ section #slides{
   background-color:#484B48;
 }
 #contact h2{
-  padding-bottom:18%;
+  padding-bottom:5%;
   padding-top:3%;
   position: relative;
 }
 .form{
   position: relative;
   text-align: center;
+  border: #CBBBAB solid 2px;
+  padding: 3%;
+  line-height: 2;
+  margin-left: 20%;
+  margin-bottom: 3%;
+}
+#contact p{
+  padding: 2%;
+  font-size: 18px;
+  color: #CBBBAB;
 }
 .input{
   background: none;
+  background-color: #484b4b;
   position: absolute;
   padding: 2%;
+  border-bottom: #CBBBAB dashed 1px;
 }
 .textarea{
   background: none;
+  background-color: #484b4b;
   position: absolute;
   padding: 2%;
+  border-bottom: #CBBBAB dashed 1px;
+}
+.number{
+  text-align: center;
+}
+.number h4{
+  font-size: 35px;
+  color: #CBBBAB;
+}
+.number h5{
+  font-size: 30px;
+  color:#CBBBAB;
 }
