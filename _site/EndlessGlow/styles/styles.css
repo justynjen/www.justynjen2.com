@@ -2,16 +2,9 @@
   box-sizing:border-box;
   padding:0;
   margin:0;
-
 }
 img{
   max-width:100%;
-}
-h1{
-  font-family:'Dawning of a New Day', cursive;
-  font-size: 100px;
-  text-align: center;
-  color: #CBBBAB;
 }
 body{
   background-color: white;
@@ -23,7 +16,6 @@ a{
   text-align: center;
   text-decoration: none;
   color: #CBBBAB;
-  width:100%;
 }
 h2{
   font-family:'Dawning of a New Day', cursive;
@@ -31,73 +23,75 @@ h2{
   font-size: 80px;
   text-align: center;
 }
-.hero h2{
+
+/*
+** HEADER
+*/
+header{
+  background-color: rgba(72, 75, 72, 0.78);
+}
+header a{
+  display: inline-block;
+  padding: 10px 12px;
+  font-size: 22px;
+}
+header a:hover{
+  color: white;
+  background-color: rgba(72, 75, 72, 0.45);
+}
+/*
+** HERO
+*/
+#hero{
+  text-align: center;
+}
+h1{
+  font-family:'Dawning of a New Day', cursive;
+  font-size: 100px;
+  color: #CBBBAB;
+  display: inline-block;
+}
+#hero h2{
   font-family: 'Dawning of a New Day',cursive;
   font-size: 55px;
-  text-align: center;
   color: #CBBBAB;
-  margin:-5%;
-  margin-left: 22%
-}
-.hero{
-  background-size: cover;
-  background-repeat: none;
-  margin-bottom: 8%;
-}
-.header-contact{
-  width: 100%;
-}
-nav{
-  width:100%;
-}
-nav ul li{
-  display:inline-block;
-  list-style:none;
-  width:160px;
-  text-align:center;
-  border: 1px dashed rgba(255,255,255, 0);
-  color:#fff;
-  padding:10px 0 10px 0;
-  margin:-1px -5px -1px -1px;
-  cursor:pointer;
-  transition:all .2s;
-  -webkit-transition:all .2s;
-}
-nav ul li:hover{
-  /*border:1px dashed #fff;*/
-  background:rgba(255,255,255,.1);
-}
-nav ul{
-  border: 1px solid #fff;
-  position:absolute;
-  width:100%;
-  padding:0;
-  z-index:100;
-  background-color: rgba(72, 75, 72, 0.78);
-  text-align: right;
-  font-size: 20px;
-}
-nav div{
-  position:absolute;
-  left:0;
-  top:16px;
-  background-color: rgba(72, 75, 72, 0.78);
-  width:162px;
-  height:40px;
-  z-index:99;
+  display: inline-block;
+  position: relative;
+  top: -64px;
+  right: -96px;
 }
 
+/*
+** HELPERS
+*/
+.animated{
+  -webkit-transition: all 475ms cubic-bezier(0.678, 0.338, 0.000, 0.996);
+   -moz-transition: all 475ms cubic-bezier(0.678, 0.338, 0.000, 0.996);
+     -o-transition: all 475ms cubic-bezier(0.678, 0.338, 0.000, 0.996);
+        transition: all 475ms cubic-bezier(0.678, 0.338, 0.000, 0.996); /* custom */
+}
+.centered{
+  margin:0 auto !important;
+  width: 100%;
+  max-width: 1406px;
+}
+.alignRight{
+  text-align: right;
+}
+.alignCenter{
+  text-align: center;
+}
+.padding{
+  padding: 60px !important;
+}
 /*Section 1*/
 .bookNow{
-  margin: 1%;
-  padding: 2%;
   border: #CBBBAB solid 5px;
   height: 300px;
   width: 300px;
   border-radius: 50%;
   text-align: center;
   font-family: 'Work Sans', sans-serif;
-  position: absolute;
   background-color: white;
   color: #CBBBAB;
 }
@@ -199,7 +193,6 @@ nav div{
 /*Testimonial section*/
 /* Bubble Slider */
 h1 #slides{
-
   width: 100%;
   text-align: center;
   margin-top:50px;
@@ -210,7 +203,27 @@ h1 #slides{
   opacity: .2;
   text-transform: uppercase;
   text-shadow: hsla(0, 45%, 5%, .3) 0 0 1px, hsla(360, 55%, 95%, .3) 0 -1px 2px,  hsla(0, 45%, 5%, .3) 0 -1px 2px, hsla(360, 55%, 95%, .3) 0 20px 15px;
-
+}
+.owl-carousel{
+  text-align: center;
+}
+.owl-next,
+.owl-prev{
+  display: inline-block;
+  padding: 25px;
+}
+.owl-prev:after,
+.owl-next:after{
+  content: "\f190";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: #CBBBAB;
+  font-size: 40px;
+}
+.owl-next:after{
+  content: "\f18e";
 }
 section #slides{
 	width: 60%;
@@ -229,6 +242,7 @@ section #slides{
 	border-radius: 8px;
 	font-size: 1.25em;
 	color: black;
+  text-align: center;
 }
 .bubble blockquote:before, .bubble blockquote:after {
 	content: "\201C";
@@ -258,7 +272,7 @@ section #slides{
   float: left;
 }
 .bubble cite {
-	padding-left: 20px;
+	/*padding-left: 20px;*/
 	font-size: 1.25em;
   color:black;
 }
@@ -268,68 +282,26 @@ section #slides{
 /*Contact section*/
 #contact{
   background-color:#484B48;
+  padding-bottom: 40px;
 }
 #contact h2{
   padding-bottom:5%;
   padding-top:3%;
   position: relative;
 }
-.form{
-  position: relative;
-  text-align: center;
-  border: #CBBBAB solid 2px;
-  padding: 3%;
-  line-height: 2;
-  margin-left: 20%;
-  margin-bottom: 3%;
-}
 #contact p{
   padding: 2%;
   font-size: 18px;
   color: #CBBBAB;
 }
-input [type=name] select, input, textarea{
- border:none;
- outline: none;
- font-size: 19px;
- font-weight: 300;
- text-align: center;
- background: none;
- font-family: 'Work Sans', sans-serif;
- max-width: 90%;
- border-bottom: 1px dashed;
- padding:15px;
- cursor:text;
- line-height: 2rem;
- height:4rem;
-}
-.textarea{
-  background: none;
-  background-color: #484b4b;
-  position: absolute;
-  padding: 2%;
-  border-bottom: #CBBBAB dashed 1px;
-}
-.number{
-  text-align: center;
-  margin-left: 4%;
-}
-.number h4{
-  font-size: 35px;
-  color: #CBBBAB;
-  font-family: 'Work Sans' sans-serif;
-  font-weight: lighter;
-  padding-bottom: 10%;
-  padding: 2%;
-}
-.number h5{
+#contact a{
   font-size: 20px;
   color:#CBBBAB;
   font-weight: lighter;
   text-align: left;
   font-family: 'Work Sans' sans-serif;
-  padding: 2%;
-  margin-left: 30%;
+  display: block;
+  padding: 4px 0;
 }
 .fa-sun-o{
   color: #CBBBAB;
