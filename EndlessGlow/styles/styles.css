@@ -13,8 +13,29 @@ h1{
   text-align: center;
   color: #CBBBAB;
 }
+body{
+  background-color: white;
+}
 p{
   font-family: 'Work Sans', sans-serif;
+}
+a{
+  text-align: center;
+  text-decoration: none;
+  color: #CBBBAB;
+  width:100%;
+}
+.header-contact{
+  background-color: rgba(72, 75, 72, 0.78);
+  padding-top: 1%;
+  display: inline-block;
+  /*margin: 0 10px;*/
+  text-align: right;
+}
+.nav{
+  font-size: 30px;
+  text-align: center;
+  width: 33%;
 }
 h2{
   font-family:'Dawning of a New Day', cursive;
@@ -109,7 +130,7 @@ h2{
 }
 /*Services-section 3*/
 .services{
-  background-color: rgba(72, 75, 72, 0.9);
+  background-color: rgba(72, 75, 72, 0.78);
   padding: 5%;
 }
 .services h2{
@@ -283,4 +304,7 @@ input [type=name] select, input, textarea{
   font-family: 'Work Sans' sans-serif;
   padding: 2%;
   margin-left: 30%;
+}
+.fa-sun-o{
+  color: #CBBBAB;
 }
