@@ -120,33 +120,26 @@ h1{
   display: flex;
   min-height: 100vh;
   position: relative;
-
-}
-.editable p{
-  text-align: center;
 }
 .editable h2, h3{
-  text-align: left;
+  text-align: center;
   font-family:'Dawning of a New Day',cursive;
   color: #CBBBAB;
 }
 .editable p{
+  text-align: center;
   line-height: 1.5;
-  font-size: 25px;
+  font-size: 20px;
 }
 .editable h2{
   font-size: 45px;
-  padding: 1%;
-  margin-top: 0%;
-  margin-left: 5%;
   font-weight: bold;
+  position: relative;
+  left: 89px;
 }
 .editable h3{
   font-size: 55px;
-  text-align: left;
-}
-.tall{
-  min-height: 100vh;
+  text-align: center;
 }
 /*Services-section 3*/
 .services{
@@ -174,21 +167,22 @@ h1{
 .editable2 p{
   text-align: center;
   line-height: 1.5;
-  font-size: 25px;
+  font-size: 20px;
 }
 .editable2 h2, h3{
-  text-align: right;
+  text-align: center;
   font-family:'Dawning of a New Day',cursive;
   color: #CBBBAB;
 }
 .editable2 h2{
-  font-size: 35px;
-  padding: 1%;
-  margin-left: 4%;
+  font-size: 45px;
   font-weight: bold;
+  position: relative;
+  right: 88px;
+  top: -4px;
 }
 .editable2 h3{
-  font-size: 45px;
+  font-size: 55px;
 }
 /*Testimonial section*/
 /* Bubble Slider */
@@ -278,6 +272,9 @@ section #slides{
 }
 .slider{
   margin-bottom: 5%;
+}
+.slider h2{
+  padding-top: 20px;
 }
 /*Contact section*/
 #contact{
