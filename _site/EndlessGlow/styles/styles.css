@@ -25,18 +25,6 @@ a{
   color: #CBBBAB;
   width:100%;
 }
-.header-contact{
-  background-color: rgba(72, 75, 72, 0.78);
-  padding-top: 1%;
-  display: inline-block;
-  /*margin: 0 10px;*/
-  text-align: right;
-}
-.nav{
-  font-size: 30px;
-  text-align: center;
-  width: 33%;
-}
 h2{
   font-family:'Dawning of a New Day', cursive;
   color: #CBBBAB;
@@ -51,14 +39,52 @@ h2{
   margin:-5%;
   margin-left: 22%
 }
-.glitterImage{
-  margin-top: -13%;
-  margin-left: 20%;
-}
 .hero{
   background-size: cover;
   background-repeat: none;
   margin-bottom: 8%;
+}
+.header-contact{
+  width: 100%;
+}
+nav{
+  width:100%;
+}
+nav ul li{
+  display:inline-block;
+  list-style:none;
+  width:160px;
+  text-align:center;
+  border: 1px dashed rgba(255,255,255, 0);
+  color:#fff;
+  padding:10px 0 10px 0;
+  margin:-1px -5px -1px -1px;
+  cursor:pointer;
+  transition:all .2s;
+  -webkit-transition:all .2s;
+}
+nav ul li:hover{
+  /*border:1px dashed #fff;*/
+  background:rgba(255,255,255,.1);
+}
+nav ul{
+  border: 1px solid #fff;
+  position:absolute;
+  width:100%;
+  padding:0;
+  z-index:100;
+  background-color: rgba(72, 75, 72, 0.78);
+  text-align: right;
+  font-size: 20px;
+}
+nav div{
+  position:absolute;
+  left:0;
+  top:16px;
+  background-color: rgba(72, 75, 72, 0.78);
+  width:162px;
+  height:40px;
+  z-index:99;
 }
 
 /*Section 1*/
