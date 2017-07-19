@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="styles/owl.theme.default.min.css">
     </style>
   </head>
-  <body>
+  <body class="popup-hide">
     <header>
       <div class="grid-middle-noGutter-noBottom centered">
         <div class="col-6">
@@ -35,7 +35,7 @@
               <a href="#services" class="animated">Services</a>
               <a href="#about" class="animated">About Me</a>
               <a href="#contact" class="animated">Book Now</a>
-              <a href="beforeAfter">Before and After</a>
+              <a href="beforeAfter.html">Before and After</a>
           </nav>
         </div>
       </div>
@@ -43,10 +43,17 @@
     <section id="hero">
       <h1>Endless glow by Katie</h1>
       <h2>You've never had a tan like this before</h2>
+      <!-- <div class="svgContainer">
+         <svg width="100" height="41" viewBox="0 0 100 41" fill="#FFF">
+        </svg>
+        <svg id="bubbleSvg" viewBox="0 0 100 41" width="100%" height="100%">
+  					<path d="M75.48 20.8C69.25 10.85 62.8.57 50 .57c-12.8 0-19.25 10.28-25.48 20.2C18.18 30.92 12.2 40.5 0 40.5v1.1c1.75 0 3.38-.2 4.9-.55h90.2c1.52.35 3.15.55 4.9.55v-1.1c-12.2   0-18.18-9.56-24.52-19.7z"></path>
+  				</svg>
+      </div> -->
     </section>
     <!--We will put a large image here with a quote about spray tanning. Maybe think about adding a book now button? I have got to talk to Katie an see if she wants a booking system or just people to email her for bookings for now.-->
     <section>
-      <div class="grid-noPadding-noGutter-middle centered">
+      <div class="grid-noPadding-noGutter-middle centered backgroundColor">
         <div class="col-6">
           <img src="images/tanning1.jpeg" alt="tanning on the beach">
         </div>
@@ -71,7 +78,7 @@
           <h2>The girl behind the glow</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-        <div class="col-6_sm-12 tall">
+        <div class="col-6_sm-12">
           <!--This is where an image will go-->
           <img src="images/girl.jpg" alt="girl-tanning-on-beach">
         </div>
@@ -158,6 +165,16 @@
         </div>
       </div>
     </section>
+    <div class="scrollPop bounce">
+      <h2>Book Your Tan Now!!</h2>
+      <form action="https://formspree.io/your@email.com"
+      method="POST">
+      <input type="text" name="name" placeholder="name">
+      <input type="email" name="_replyto" placeholder="email">
+      <input type="date" name="date">
+      <input type="submit" value="Send" class="button">
+    </form>
+  </div>
 
 <!--jQuery include this first-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
