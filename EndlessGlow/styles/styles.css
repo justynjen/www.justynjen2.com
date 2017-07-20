@@ -60,14 +60,20 @@ h1{
   top: -64px;
   right: -96px;
 }
-/*.svgContainer{
-  color: #FFF;
-  cursor: pointer;
-  left: 50%;
-  margin-left: -50px;
-  position: relative;
-  display: inline-block;
-}*/
+/*Media Queries for the header*/
+@media all and (max-width:1000px){
+  #hero h1{
+    font-size: 45px;
+    text-align: center;
+  }
+  #hero h2{
+    font-size: 35px;
+    text-align: center;
+    top: -32px;
+    right:0;
+    display: block;
+  }
+}
 /*
 ** HELPERS
 */
@@ -116,17 +122,17 @@ h1{
 .bookNow h4{
   font-size: 30px;
 }
-.fa-angle-double-down{
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  margin-left:-20px;
-  margin-bottom: 2%;
-  width: 40px;
-  height: 40px;
-  color: #CBBBAB;
-  z-index: 1;
-  background-size: contain;
+/*Section 1 media queries*/
+@media all and (max-width:1169px){
+  #about h3{
+    text-align: center;
+    font-size: 55px;
+  }
+  #about h2{
+    text-align: center;
+    font-size: 45px;
+    left: 0;
+  }
 }
 /*Section 2*/
 .editable{
@@ -154,6 +160,18 @@ h1{
   font-size: 55px;
   text-align: center;
 }
+/*Media Queries for this section*/
+@media all and (max-width:768px){
+  .editable2 h3{
+    text-align: center;
+    font-size: 55px;
+  }
+  .editable2 h2{
+    text-align: center;
+    font-size: 45px;
+    left: 0;
+  }
+}
 /*Services-section 3*/
 .services{
   background-color: rgba(72, 75, 72, 0.78);
@@ -170,6 +188,17 @@ h1{
 .center{
   text-align: center;
   line-height: 1.5;
+}
+/*Services Section media queriers*/
+@media all and (max-width:768px){
+  #services h2{
+    font-size: 65px;
+  }
+}
+@media all and (max-width:550px){
+  #services h2{
+    font-size: 60px;
+  }
 }
 /*Section 4*/
 .editable2{
@@ -222,7 +251,7 @@ h1 #slides{
 .owl-prev:after,
 .owl-next:after{
   content: "\f190";
-  font-family: FontAwesome;
+  font-family: 'fontawesome';
   font-style: normal;
   font-weight: normal;
   text-decoration: inherit;
@@ -313,8 +342,19 @@ section #slides{
   display: block;
   padding: 4px 0;
 }
-.fa-sun-o{
-  color: #CBBBAB;
+#contact a{
+  text-align: center;
+}
+/*Media Queries for footer*/
+@media all and (max-width:680px){
+  #contact h2{
+    font-size: 65px;
+  }
+}
+@media all and (max-width:470px){
+  #contact h2{
+    font-size: 45px;
+  }
 }
 .scrollPop{
   position: fixed;
@@ -359,7 +399,55 @@ body.popup-show .scrollPop{
   opacity: 1;
   transform: scale(1);
 }
-
+.fa-times{
+  position: relative;
+  display: inherit;
+  text-align: center;
+  color: #484B48;
+}
+/*All mobile nav*/
+.hamburger{
+  display:none;
+}
+#mobile-nav{
+  position: fixed;
+  top:0;
+  left:0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(72, 75, 72, 0.78);
+  z-index:99;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  visibility: hidden;
+  text-align: center;
+  color: #fff;
+}
+#mobile-nav a{
+  color:#fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/*Media Queries for the mobile nav*/
+@media all and (max-width:1200px){
+  .hamburger{
+    display: block;
+    position: relative;
+    right: 18px;
+    color: #CBBBAB;
+    z-index: 99;
+  }
+  .main-nav a{
+    display: none;
+  }
+}
+#mobile-nav .fa-times{
+  display: block;
+  position: relative;
+  color: #CBBBAB;
+}
 /*Before and After Page Styling*/
 .pPadding{
   padding:0 45px;

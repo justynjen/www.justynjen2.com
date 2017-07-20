@@ -43,9 +43,34 @@ $(document).ready(function(){
 
   }
 
-
   // Bind events
   $(document).on('scroll', checkScroll);
   $(window).on('load resize', getVariables);
 
 });
+
+  //close the popup
+  $('.fa-times').click(function(){
+    console.log('x clicked!');
+    $('#popped').css({
+      visibility: "hidden"
+    });
+  });
+  //hamburger menu
+  //click on the hamburger
+  $('.fa-bars').click(function(){
+    console.log('hamburger clicked!');
+    //Show mobile navigation
+
+    //change visibility
+    $('#mobile-nav').css({
+      visibility:"visible"
+    });
+  });
+  // close the mobile navigation
+  $('.fa-times').click(function(){
+    console.log('x clicked!');
+    $('#mobile-nav').css({
+      visibility: "hidden"
+    });
+  });
