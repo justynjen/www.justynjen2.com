@@ -7,7 +7,7 @@ img{
   max-width:100%;
 }
 body{
-  background-color: white;
+  background-color: #FEF9FF;
 }
 p{
   font-family: 'Work Sans', sans-serif;
@@ -15,20 +15,21 @@ p{
 a{
   text-align: center;
   text-decoration: none;
-  color: #CBBBAB;
+  color: #9F9FED;
 }
 h2{
   font-family:'Dawning of a New Day', cursive;
-  color: #CBBBAB;
+  color: #9F9FED;
   font-size: 80px;
   text-align: center;
+  letter-spacing: 2px;
 }
 
 /*
 ** HEADER
 */
 header{
-  background-color: rgba(72, 75, 72, 0.78);
+  background-color: rgba(212, 193, 236, 0.44);
 }
 header a{
   display: inline-block;
@@ -37,7 +38,7 @@ header a{
 }
 header a:hover{
   color: white;
-  background-color: rgba(72, 75, 72, 0.45);
+  background-color: rgba(212, 193, 236, 0.66);
 }
 /*
 ** HERO
@@ -48,13 +49,14 @@ header a:hover{
 h1{
   font-family:'Dawning of a New Day', cursive;
   font-size: 100px;
-  color: #CBBBAB;
+  color: #9F9FED;
   display: inline-block;
+  letter-spacing: 3px;
 }
 #hero h2{
   font-family: 'Dawning of a New Day',cursive;
   font-size: 55px;
-  color: #CBBBAB;
+  color: #9F9FED;
   display: inline-block;
   position: relative;
   top: -64px;
@@ -65,6 +67,7 @@ h1{
   #hero h1{
     font-size: 45px;
     text-align: center;
+    letter-spacing: 3px;
   }
   #hero h2{
     font-size: 35px;
@@ -112,7 +115,7 @@ h1{
   text-align: center;
   font-family: 'Work Sans', sans-serif;
   background-color: white;
-  color: #CBBBAB;
+  color: #9F9FED;
 }
 .bookNow h3{
   font-size: 65px;
@@ -127,11 +130,13 @@ h1{
   #about h3{
     text-align: center;
     font-size: 55px;
+    letter-spacing: 2px;
   }
   #about h2{
     text-align: center;
     font-size: 45px;
     left: 0;
+    letter-spacing: 3px;
   }
 }
 /*Section 2*/
@@ -143,7 +148,7 @@ h1{
 .editable h2, h3{
   text-align: center;
   font-family:'Dawning of a New Day',cursive;
-  color: #CBBBAB;
+  color: #9F9FED;
 }
 .editable p{
   text-align: center;
@@ -164,17 +169,17 @@ h1{
 @media all and (max-width:768px){
   .editable2 h3{
     text-align: center;
-    font-size: 55px;
+    font-size: 45px;
   }
   .editable2 h2{
     text-align: center;
-    font-size: 45px;
+    font-size: 35px;
     left: 0;
   }
 }
 /*Services-section 3*/
 .services{
-  background-color: rgba(72, 75, 72, 0.78);
+  background-color: rgba(212, 193, 236, 0.40);
   padding: 5%;
 }
 .services h2{
@@ -189,15 +194,18 @@ h1{
   text-align: center;
   line-height: 1.5;
 }
+.fa-sun-o{
+  color: #9F9FED;
+}
 /*Services Section media queriers*/
 @media all and (max-width:768px){
   #services h2{
-    font-size: 65px;
+    font-size: 55px;
   }
 }
 @media all and (max-width:550px){
   #services h2{
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 /*Section 4*/
@@ -214,7 +222,7 @@ h1{
 .editable2 h2, h3{
   text-align: center;
   font-family:'Dawning of a New Day',cursive;
-  color: #CBBBAB;
+  color: #9F9FED;
 }
 .editable2 h2{
   font-size: 45px;
@@ -228,7 +236,7 @@ h1{
 }
 /*Testimonial section*/
 /* Bubble Slider */
-h1 #slides{
+h2 #slides{
   width: 100%;
   text-align: center;
   margin-top:50px;
@@ -239,6 +247,7 @@ h1 #slides{
   opacity: .2;
   text-transform: uppercase;
   text-shadow: hsla(0, 45%, 5%, .3) 0 0 1px, hsla(360, 55%, 95%, .3) 0 -1px 2px,  hsla(0, 45%, 5%, .3) 0 -1px 2px, hsla(360, 55%, 95%, .3) 0 20px 15px;
+  letter-spacing: 3px;
 }
 .owl-carousel{
   text-align: center;
@@ -255,7 +264,7 @@ h1 #slides{
   font-style: normal;
   font-weight: normal;
   text-decoration: inherit;
-  color: #CBBBAB;
+  color: #9F9FED;
   font-size: 40px;
 }
 .owl-next:after{
@@ -271,7 +280,7 @@ section #slides{
 }
 .bubble blockquote {
 	margin: 10px 10px 0;
-	background: #fff;
+	background: #FEF9FF;
 	padding: 60px;
 	position: relative;
 	border: none;
@@ -286,7 +295,7 @@ section #slides{
 	font-size: 80px;
 	padding: 10px;
 	line-height: 1;
-	color: #CBBBAB;
+	color: #9F9FED;
 }
 .bubble blockquote:before {
 	top: 0;
@@ -320,22 +329,24 @@ section #slides{
 }
 /*Contact section*/
 #contact{
-  background-color:#484B48;
+  background-color:rgba(212, 193, 236, 0.44);
   padding-bottom: 40px;
 }
 #contact h2{
   padding-bottom:5%;
   padding-top:3%;
   position: relative;
+  letter-spacing: 3px;
+  color: #9F9FED;
 }
 #contact p{
   padding: 2%;
   font-size: 18px;
-  color: #CBBBAB;
+  color: #9F9FED;
 }
 #contact a{
   font-size: 20px;
-  color:#CBBBAB;
+  color:#9F9FED;
   font-weight: lighter;
   text-align: left;
   font-family: 'Work Sans' sans-serif;
@@ -360,7 +371,7 @@ section #slides{
   position: fixed;
   bottom: 0;
   right: 0;
-  background-color: #CBBBAB;
+  background-color: #D4C1EC;
   z-index: 1000;
   padding: 0 30px 30px 30px;
   transform-origin: right bottom;
@@ -371,7 +382,7 @@ section #slides{
   font-size: 55px;
   padding: 30px 0;
   font-weight: 600;
-  color: #484B48;
+  color: #736CED;
 }
 .scrollPop input{
   display: block;
@@ -388,7 +399,7 @@ body.popup-hide .scrollPop{
   transform: scale(.98);
 }
 .button{
-  background-color: #EF7B45;
+  background-color: #736CED;
   font-family: 'Work Sans' sans-serif;
   font-size: 25px;
   color: white;
@@ -415,7 +426,7 @@ body.popup-show .scrollPop{
   left:0;
   height: 100vh;
   width: 100vw;
-  background-color: rgba(72, 75, 72, 0.78);
+  background-color:#D4C1EC;
   z-index:99;
   display: flex;
   flex-direction: column;
@@ -431,24 +442,41 @@ body.popup-show .scrollPop{
   text-transform: uppercase;
 }
 /*Media Queries for the mobile nav*/
-@media all and (max-width:1200px){
+@media all and (max-width:1000px){
   .hamburger{
     display: block;
     position: relative;
     right: 18px;
-    color: #CBBBAB;
+    color: #9F9FED;
     z-index: 99;
   }
   .main-nav a{
     display: none;
   }
 }
-#mobile-nav .fa-times{
-  display: block;
-  position: relative;
-  color: #CBBBAB;
+  #mobile-nav .fa-times{
+    display: block;
+    position: relative;
+    color: #9F9FED;
+}
+@media all and (max-width:1000px){
+  .nav-menu{
+    display: none;
+  }
 }
 /*Before and After Page Styling*/
 .pPadding{
-  padding:0 45px;
+  padding:10px 45px;
+}
+/*Media Queries for before and after*/
+@media all and (max-width:850px){
+  .mobileResponsive{
+    font-size: 50px;
+    padding: 0;
+  }
+}
+@media all and (min-width:375px){
+  .mobileResponsive{
+    font-size: 45px;
+  }
 }
