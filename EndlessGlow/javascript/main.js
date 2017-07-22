@@ -41,8 +41,6 @@ $(document).ready(function(){
     } else if(scrollPosition < (windowHeight / 2) && $('body').hasClass('popup-show') ){
       $('body').toggleClass('popup-show popup-hide');
     }
-
-
   }
 
   // gets variables
@@ -82,7 +80,6 @@ $(document).ready(function(){
   });
   // close the mobile navigation
   $('.fa-times').click(function(){
-    console.log('x clicked!');
     $('#mobile-nav').css({
       visibility: "hidden"
     });
