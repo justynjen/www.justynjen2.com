@@ -331,6 +331,11 @@ section #slider{
 .slider h2{
   padding-top: 20px;
 }
+@media all and (max-width:768px){
+  .slider h2{
+    font-size:70px;
+  }
+}
 /*Contact section*/
 #contact{
   background-color:#7FFFDF;
@@ -418,7 +423,7 @@ body.popup-show .scrollPop{
   position: relative;
   display: inherit;
   text-align: center;
-  color: #484B48;
+  color: black;
 }
 /*All mobile nav*/
 .hamburger{
@@ -430,7 +435,7 @@ body.popup-show .scrollPop{
   left:0;
   height: 100vh;
   width: 100vw;
-  background-color:rgba(204, 255, 241, 0.58);
+  background-color:#7FFFDF;
   z-index:99;
   display: flex;
   flex-direction: column;
@@ -441,7 +446,7 @@ body.popup-show .scrollPop{
   color: #fff;
 }
 #mobile-nav a{
-  color:#fff;
+  color:black;
   text-decoration: none;
   text-transform: uppercase;
 }
