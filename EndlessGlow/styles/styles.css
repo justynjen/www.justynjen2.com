@@ -7,7 +7,7 @@ img{
   max-width:100%;
 }
 body{
-  background-color: #FEF9FF;
+  background-color:#D9FFF4;
 }
 p{
   font-family: 'Work Sans', sans-serif;
@@ -15,11 +15,11 @@ p{
 a{
   text-align: center;
   text-decoration: none;
-  color: #9F9FED;
+  color: black;
 }
 h2{
   font-family:'Dawning of a New Day', cursive;
-  color: #9F9FED;
+  color: black;
   font-size: 80px;
   text-align: center;
   letter-spacing: 2px;
@@ -29,7 +29,7 @@ h2{
 ** HEADER
 */
 header{
-  background-color: rgba(212, 193, 236, 0.44);
+  background-color:#7FFFDF;
 }
 header a{
   display: inline-block;
@@ -49,18 +49,26 @@ header a:hover{
 h1{
   font-family:'Dawning of a New Day', cursive;
   font-size: 100px;
-  color: #9F9FED;
+  color: white;
   display: inline-block;
   letter-spacing: 3px;
 }
 #hero h2{
   font-family: 'Dawning of a New Day',cursive;
   font-size: 55px;
-  color: #9F9FED;
+  color: white;
   display: inline-block;
   position: relative;
   top: -64px;
   right: -96px;
+}
+#hero{
+  background:url('https://static.pexels.com/photos/478544/pexels-photo-478544.jpeg');
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+  padding: 5%;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
 }
 /*Media Queries for the header*/
 @media all and (max-width:1000px){
@@ -107,24 +115,6 @@ h1{
   transition: all 300ms ease;
 }
 /*Section 1*/
-.bookNow{
-  border: #CBBBAB solid 5px;
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-  text-align: center;
-  font-family: 'Work Sans', sans-serif;
-  background-color: white;
-  color: #9F9FED;
-}
-.bookNow h3{
-  font-size: 65px;
-  font-family: 'Work Sans', sans-serif;
-  text-align: center;
-}
-.bookNow h4{
-  font-size: 30px;
-}
 /*Section 1 media queries*/
 @media all and (max-width:1169px){
   #about h3{
@@ -148,7 +138,7 @@ h1{
 .editable h2, h3{
   text-align: center;
   font-family:'Dawning of a New Day',cursive;
-  color: #9F9FED;
+  color: black;
 }
 .editable p{
   text-align: center;
@@ -179,23 +169,34 @@ h1{
 }
 /*Services-section 3*/
 .services{
-  background-color: rgba(212, 193, 236, 0.40);
+  background:url('https://static.pexels.com/photos/484109/pexels-photo-484109.jpeg');
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
   padding: 5%;
 }
 .services h2{
   padding-top: 2%;
   padding-bottom: 2%;
+  color: white;
+  letter-spacing: 3px;
 }
 .services h3{
   font-size: 40px;
   padding-top: 2%;
+  color: white;
+  letter-spacing: 3px;
 }
 .center{
   text-align: center;
   line-height: 1.5;
 }
 .fa-sun-o{
-  color: #9F9FED;
+  color: white;
+}
+.text{
+  color: white;
+  padding: 20px;
 }
 /*Services Section media queriers*/
 @media all and (max-width:768px){
@@ -222,7 +223,7 @@ h1{
 .editable2 h2, h3{
   text-align: center;
   font-family:'Dawning of a New Day',cursive;
-  color: #9F9FED;
+  color: black;
 }
 .editable2 h2{
   font-size: 45px;
@@ -251,6 +252,7 @@ h2 #slides{
 }
 .owl-carousel{
   text-align: center;
+  background-color: white;
 }
 .owl-next,
 .owl-prev{
@@ -264,23 +266,25 @@ h2 #slides{
   font-style: normal;
   font-weight: normal;
   text-decoration: inherit;
-  color: #9F9FED;
+  color: black;
   font-size: 40px;
 }
 .owl-next:after{
   content: "\f18e";
 }
-section #slides{
+section #slider{
 	width: 60%;
 	margin: 70px auto;
   padding-bottom: 4%;
+  background-color: white;
 }
-#slides{
+#slider{
   padding-bottom: 4%;
+  background: white;
 }
 .bubble blockquote {
 	margin: 10px 10px 0;
-	background: #FEF9FF;
+	background:white;
 	padding: 60px;
 	position: relative;
 	border: none;
@@ -295,7 +299,7 @@ section #slides{
 	font-size: 80px;
 	padding: 10px;
 	line-height: 1;
-	color: #9F9FED;
+	color: black;
 }
 .bubble blockquote:before {
 	top: 0;
@@ -322,14 +326,14 @@ section #slides{
   color:black;
 }
 .slider{
-  margin-bottom: 5%;
+  background: white;
 }
 .slider h2{
   padding-top: 20px;
 }
 /*Contact section*/
 #contact{
-  background-color:rgba(212, 193, 236, 0.44);
+  background-color:#7FFFDF;
   padding-bottom: 40px;
 }
 #contact h2{
@@ -337,16 +341,16 @@ section #slides{
   padding-top:3%;
   position: relative;
   letter-spacing: 3px;
-  color: #9F9FED;
+  color: black;
 }
 #contact p{
   padding: 2%;
   font-size: 18px;
-  color: #9F9FED;
+  color: black;
 }
 #contact a{
   font-size: 20px;
-  color:#9F9FED;
+  color:black;
   font-weight: lighter;
   text-align: left;
   font-family: 'Work Sans' sans-serif;
@@ -371,7 +375,7 @@ section #slides{
   position: fixed;
   bottom: 0;
   right: 0;
-  background-color: #D4C1EC;
+  background-color: #7FFFDF;
   z-index: 1000;
   padding: 0 30px 30px 30px;
   transform-origin: right bottom;
@@ -382,7 +386,7 @@ section #slides{
   font-size: 55px;
   padding: 30px 0;
   font-weight: 600;
-  color: #736CED;
+  color: black;
 }
 .scrollPop input{
   display: block;
@@ -399,7 +403,7 @@ body.popup-hide .scrollPop{
   transform: scale(.98);
 }
 .button{
-  background-color: #736CED;
+  background-color: #FFA069;
   font-family: 'Work Sans' sans-serif;
   font-size: 25px;
   color: white;
@@ -426,7 +430,7 @@ body.popup-show .scrollPop{
   left:0;
   height: 100vh;
   width: 100vw;
-  background-color:#D4C1EC;
+  background-color:rgba(204, 255, 241, 0.58);
   z-index:99;
   display: flex;
   flex-direction: column;
@@ -447,7 +451,7 @@ body.popup-show .scrollPop{
     display: block;
     position: relative;
     right: 18px;
-    color: #9F9FED;
+    color: black;
     z-index: 99;
   }
   .main-nav a{
