@@ -85,6 +85,11 @@ h1{
     display: block;
   }
 }
+@media all and (max-width:400px){
+  .mobile a{
+    font-size: 9px;
+  }
+}
 /*
 ** HELPERS
 */
@@ -466,7 +471,7 @@ body.popup-show .scrollPop{
   #mobile-nav .fa-times{
     display: block;
     position: relative;
-    color: #9F9FED;
+    color: black;
 }
 @media all and (max-width:1000px){
   .nav-menu{
