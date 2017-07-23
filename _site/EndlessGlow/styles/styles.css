@@ -37,8 +37,8 @@ header a{
   font-size: 22px;
 }
 header a:hover{
-  color: white;
-  background-color: rgba(212, 193, 236, 0.66);
+  color:black;
+  background-color:#D9FFF4;
 }
 /*
 ** HERO
@@ -70,7 +70,9 @@ h1{
   padding: 5%;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
 }
-/*Media Queries for the header*/
+/*
+**Media Queries for the header
+*/
 @media all and (max-width:1000px){
   #hero h1{
     font-size: 45px;
@@ -119,13 +121,35 @@ h1{
 .bounce{
   transition: all 300ms ease;
 }
-/*Section 1*/
-/*Section 1 media queries*/
+/*
+**Section 2- Editable and About Section
+*/
+.editable{
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+}
+.editable h3{
+  text-align: center;
+  font-family:'Dawning of a New Day',cursive;
+  color: black;
+  padding-bottom: 25px;
+  font-size: 55px;
+}
+.editable p{
+  text-align: center;
+  line-height: 1.5;
+  font-size: 20px;
+}
+/*
+**About section media queries/Editble Section
+*/
 @media all and (max-width:1169px){
   #about h3{
     text-align: center;
     font-size: 55px;
     letter-spacing: 2px;
+    padding-bottom: 25px;
   }
   #about h2{
     text-align: center;
@@ -134,45 +158,15 @@ h1{
     letter-spacing: 3px;
   }
 }
-/*Section 2*/
-.editable{
-  display: flex;
-  min-height: 100vh;
-  position: relative;
-}
-.editable h2, h3{
-  text-align: center;
-  font-family:'Dawning of a New Day',cursive;
-  color: black;
-}
-.editable p{
-  text-align: center;
-  line-height: 1.5;
-  font-size: 20px;
-}
-.editable h2{
-  font-size: 45px;
-  font-weight: bold;
-  position: relative;
-  left: 89px;
-}
-.editable h3{
-  font-size: 55px;
-  text-align: center;
-}
-/*Media Queries for this section*/
 @media all and (max-width:768px){
   .editable2 h3{
     text-align: center;
     font-size: 45px;
   }
-  .editable2 h2{
-    text-align: center;
-    font-size: 35px;
-    left: 0;
-  }
 }
-/*Services-section 3*/
+/*
+**Services-section 3
+*/
 .services{
   background:url('https://static.pexels.com/photos/484109/pexels-photo-484109.jpeg');
   background-size:cover;
@@ -203,7 +197,9 @@ h1{
   color: white;
   padding: 20px;
 }
-/*Services Section media queriers*/
+/*
+**Services Section media queriers
+*/
 @media all and (max-width:768px){
   #services h2{
     font-size: 55px;
@@ -214,7 +210,9 @@ h1{
     font-size: 50px;
   }
 }
-/*Section 4*/
+/*
+**Section 4- editable2 Section
+*/
 .editable2{
   display: flex;
   min-height: 100vh;
@@ -225,23 +223,24 @@ h1{
   line-height: 1.5;
   font-size: 20px;
 }
-.editable2 h2, h3{
+.editable2 h3{
   text-align: center;
   font-family:'Dawning of a New Day',cursive;
   color: black;
-}
-.editable2 h2{
-  font-size: 45px;
-  font-weight: bold;
-  position: relative;
-  right: 88px;
-  top: -4px;
-}
-.editable2 h3{
+  padding-bottom: 25px;
   font-size: 55px;
 }
-/*Testimonial section*/
-/* Bubble Slider */
+/*
+**Media queries for editable2
+*/
+@media all and (max-width:768px){
+  .editable2 h3{
+    padding-bottom: 25px;
+  }
+}
+/*
+**Testimonial section- Bubble- owl-carousel
+*/
 h2 #slides{
   width: 100%;
   text-align: center;
@@ -277,7 +276,7 @@ h2 #slides{
 .owl-next:after{
   content: "\f18e";
 }
-section #slider{
+#slider{
 	width: 60%;
 	margin: 70px auto;
   padding-bottom: 4%;
@@ -325,8 +324,7 @@ section #slider{
 	margin-bottom: 10px;
   float: left;
 }
-.bubble cite {
-	/*padding-left: 20px;*/
+.bubble cite{
 	font-size: 1.25em;
   color:black;
 }
@@ -341,7 +339,9 @@ section #slider{
     font-size:70px;
   }
 }
-/*Contact section*/
+/*
+**Contact section
+*/
 #contact{
   background-color:#7FFFDF;
   padding-bottom: 40px;
@@ -366,11 +366,11 @@ section #slider{
   font-family: 'Work Sans' sans-serif;
   display: block;
   padding: 4px 0;
-}
-#contact a{
   text-align: center;
 }
-/*Media Queries for footer*/
+/*
+**Media Queries for footer
+*/
 @media all and (max-width:680px){
   #contact h2{
     font-size: 65px;
@@ -381,6 +381,9 @@ section #slider{
     font-size: 45px;
   }
 }
+/*
+**Pop Up section
+*/
 .scrollPop{
   position: fixed;
   bottom: 0;
@@ -430,7 +433,9 @@ body.popup-show .scrollPop{
   text-align: center;
   color: black;
 }
-/*All mobile nav*/
+/*
+**All mobile nav
+*/
 .hamburger{
   display:none;
 }
@@ -455,7 +460,9 @@ body.popup-show .scrollPop{
   text-decoration: none;
   text-transform: uppercase;
 }
-/*Media Queries for the mobile nav*/
+/*
+**Media Queries for the mobile nav
+*/
 @media all and (max-width:1000px){
   .hamburger{
     display: block;
@@ -478,11 +485,15 @@ body.popup-show .scrollPop{
     display: none;
   }
 }
-/*Before and After Page Styling*/
+/*
+**Before and After Page Styling
+*/
 .pPadding{
   padding:10px 45px;
 }
-/*Media Queries for before and after*/
+/*
+**Media Queries for before and after
+*/
 @media all and (max-width:850px){
   .mobileResponsive{
     font-size: 50px;
