@@ -94,7 +94,7 @@ h1{
 }
 @media all and (max-width:480px){
   .mobile a{
-    font-size: 9px;
+    font-size: 6px;
   }
 }
 /*
