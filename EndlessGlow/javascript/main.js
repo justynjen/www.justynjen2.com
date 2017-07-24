@@ -9,28 +9,24 @@ $(document).ready(function(){
   $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
+    nav:true,
+    navText: ["",""],
     responsiveClass:true,
     responsive:{
         0:{
-            items:1,
-            nav:true
+            items:1
         },
         768:{
-            items:2,
-            nav:false
+            items:2
         },
         1000:{
-            items:3,
-            nav:true,
-            loop:false
+            items:3
         }
     }
-});
-  // check when window scrolls
-  function checkScroll() {
+  });
 
-    // log
-    console.log('scrollin');
+  // check when window scrolls
+  function checkScroll(){
 
     // variables
     scrollPosition = $(document).scrollTop();
@@ -44,43 +40,36 @@ $(document).ready(function(){
   }
 
   // gets variables
-  function getVariables() {
-
-    // log
-    console.log('getVariables()');
-
+  function getVariables(){
     // variables
     windowHeight = $(document).outerHeight();
-
   }
 
   // Bind events
   $(document).on('scroll', checkScroll);
-  $(window).on('load resize', getVariables);
+  $(window).on('resize', getVariables);
 
-});
+  // Get variables
+  getVariables();
 
   //close the popup
   $('.fa-times').click(function(){
-    console.log('x clicked!');
-    $('#popped').css({
-      visibility: "hidden"
-    });
+      $('#popped').css({
+        visibility: "hidden"
+      });
   });
-  //hamburger menu
-  //click on the hamburger
-  $('.fa-bars').click(function(){
-    console.log('hamburger clicked!');
-    //Show mobile navigation
 
-    //change visibility
-    $('#mobile-nav').css({
-      visibility:"visible"
-    });
+  // Show mobile navigation
+  $('.fa-bars').click(function(){
+      $('#mobile-nav').css({
+        visibility:"visible"
+      });
   });
+
   // close the mobile navigation
   $('.fa-times').click(function(){
-    $('#mobile-nav').css({
-      visibility: "hidden"
-    });
+      $('#mobile-nav').css({
+        visibility: "hidden"
+      });
   });
+});
