@@ -94,7 +94,12 @@ h1{
 }
 @media all and (max-width:480px){
   .mobile a{
-    font-size: 9px;
+    font-size: 25px;
+  }
+}
+@media all and (max-width:480px){
+  header span{
+    display: none;
   }
 }
 /*
@@ -477,6 +482,7 @@ body.popup-show .scrollPop{
   color:#2f5248;
   text-decoration: none;
   text-transform: uppercase;
+  font-family: 'lato', sans-serif;
 }
 /*
 **Media Queries for the mobile nav
@@ -494,7 +500,9 @@ body.popup-show .scrollPop{
   }
   #mobile-nav .fa-times{
     display: block;
-    position: relative;
+    position: absolute;
+    right: 10px;
+    top: 10px;
     color: #2f5248;
   }
 }
