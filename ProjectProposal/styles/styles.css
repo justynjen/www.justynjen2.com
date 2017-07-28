@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-  color: #e74c3c;
+  color: #323de5;
   font-family: 'Playfair Display', serif;
   font-weight: normal;
   margin-top: 2rem;
@@ -32,9 +32,9 @@ h3 {
 }
 
 a {
-  color: #e74c3c;
+  color: #323de5;
   padding-bottom: 2px;
-  border-bottom: 1px solid #e74c3c;
+  border-bottom: 1px solid #323de5;
   text-decoration: none;
   position: relative;
   top:0;
@@ -71,7 +71,7 @@ li {
 
 hr {
   border: none;
-  border-bottom: 3px solid #e74c3c;
+  border-bottom: 3px solid #323de5;
   width: 50px;
   margin:0;
   margin-bottom: 2rem;
@@ -86,7 +86,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("building.jpg");
+  background-image: url("../images/food.jpeg");
   background-attachment: fixed;
   -webkit-filter: greyscale;
   background-color: teal;
@@ -105,12 +105,12 @@ section {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to bottom right,#e63f4f,#e53260);
+  background-image: linear-gradient(to bottom right,rgba(69, 99, 229, 0.70),rgba(50, 61, 229, 0.69));
   opacity: .6;
 }
 
 .featured {
-  background-image: linear-gradient(to bottom right,#e63f4f,#e53260);
+  background-image: linear-gradient(to bottom right,#4563e5,#323de5);
   color: white;
   text-align: center;
 }
