@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: rgb(90,90,90);
+}
+
+.front {
+  z-index: 100;
+}
+
+h1 {
+  font-size: 6vw;
+  font-weight: 800;
+}
+
+h2 {
+  color: #323de5;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-weight: normal;
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+  color: #323de5;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #323de5;
+  text-decoration: none;
+  position: relative;
+  top:0;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: rgb(120,120,120);
+  border-color: rgb(120,120,120);
+  top:2px;
+  position: relative;
+}
+
+p {
+  line-height: 1.4;
+  margin: 0.8rem 0;
+  font-weight: 300;
+}
+
+p span {
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+
+ul {
+  list-style: inside;
+}
+
+li {
+    margin: 0.5rem 0;
+    font-weight: 300;
+}
+
+hr {
+  border: none;
+  border-bottom: 3px solid #323de5;
+  width: 50px;
+  margin:0;
+  margin-bottom: 2rem;
+}
+
+section {
+  padding: 5% 10%;
+}
+
+.banner {
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("images/church.jpeg");
+  background-attachment: fixed;
+  -webkit-filter: greyscale;
+  background-color: teal;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right,rgba(69, 99, 229, 0.70),rgba(50, 61, 229, 0.69));
+  opacity: .6;
+}
+
+.featured {
+  background-image: linear-gradient(to bottom right,#4563e5,#323de5);
+  color: white;
+  text-align: center;
+}
+
+.featured a,
+.featured h2 {
+  color: white;
+  border-color: white;
+}
+
+.featured hr {
+  margin: auto;
+  border-color: white;
+}
