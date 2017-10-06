@@ -187,19 +187,22 @@ h1{
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
-  padding: 5%;
+  padding: 2%;
+  height: 100vh;
 }
 .services h2{
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   color: black;
   letter-spacing: 3px;
+  font-size: 50px;
 }
 .services h3{
   font-size: 40px;
   padding-top: 2%;
   color: black;
   letter-spacing: 3px;
+  text-align: center;
 }
 .center{
   text-align: center;
