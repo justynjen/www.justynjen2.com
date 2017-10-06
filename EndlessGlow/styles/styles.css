@@ -193,13 +193,13 @@ h1{
 .services h2{
   padding-top: 2%;
   padding-bottom: 2%;
-  color: white;
+  color: black;
   letter-spacing: 3px;
 }
 .services h3{
   font-size: 40px;
   padding-top: 2%;
-  color: white;
+  color: black;
   letter-spacing: 3px;
 }
 .center{
@@ -207,10 +207,10 @@ h1{
   line-height: 1.5;
 }
 .fa-sun-o{
-  color: white;
+  color: black;
 }
 .text{
-  color: white;
+  color: black;
   padding: 20px;
 }
 /*
