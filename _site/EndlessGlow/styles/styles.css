@@ -184,7 +184,6 @@ h1{
 **Services-section 3
 */
 .services{
-  background:url('https://static.pexels.com/photos/484109/pexels-photo-484109.jpeg');
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
@@ -193,13 +192,13 @@ h1{
 .services h2{
   padding-top: 2%;
   padding-bottom: 2%;
-  color: white;
+  color: black;
   letter-spacing: 3px;
 }
 .services h3{
   font-size: 40px;
   padding-top: 2%;
-  color: white;
+  color: black;
   letter-spacing: 3px;
 }
 .center{
@@ -207,10 +206,10 @@ h1{
   line-height: 1.5;
 }
 .fa-sun-o{
-  color: white;
+  color: black;
 }
 .text{
-  color: white;
+  color: black;
   padding: 20px;
 }
 /*
